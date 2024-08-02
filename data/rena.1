@@ -1,0 +1,117 @@
+.TH "rena" "1" "0.1" "Santelmo Technologies" ""
+.SH "NAME"
+.LP 
+rena \- A lightweight music player, forked of Pragha which is forked from Consonance
+.SH "SYNTAX"
+.LP 
+rena [OPTION...] [FILE1 [FILE2...]]
+.SH "DESCRIPTION"
+.LP 
+rena is a lightweight music player that aims to be fast, bloat\-free, and light on memory consumption. It is written completely in C and GTK+. Some of the features are:
+.LP
+.br 
+  * Library management using sqlite3
+.br 
+  * Multiple views
+.br 
+  * OSD support
+.br 
+  * asf, ape, flac, mp3, mp4, ogg, wav, wma, and CDDA support
+.LP 
+rena is released under the GNU General Public Licence version 3 (GPLv3).
+
+.SH "OPTIONS"
+.LP 
+.TP 
+\fB\-?, \-\-help\fR
+Output help information and exit.
+.TP 
+\fB\-\-help\-all\fR
+Output all help options and exit.
+.TP 
+\fB\-\-help\-gtk\fR
+Output GTK+ Options and exit.
+.TP 
+\fB\-v, \-\-version\fR
+Output version information and exit.
+.TP 
+\fB\-e, \-\-debug\fR
+Enable Debug ( Levels: 1,2,3,4 )
+.TP 
+\fB\-l, \-\-log\-file\fR
+Log Debug to a file.
+.TP 
+\fB\-p, \-\-play\fR
+Start playing.
+.TP 
+\fB\-s, \-\-stop\fR
+Stop playing.
+.TP 
+\fB\-t, \-\-pause\fR
+Play/Pause/Resume the current song.
+.TP 
+\fB\-r, \-\-prev\fR
+Play the previous song in the playlist.               
+.TP 
+\fB\-n, \-\-next\fR
+Play the next song in the playlist. 
+.TP 
+\fB\-f, \-\-shuffle\fR
+Toggle shuffle mode.
+.TP
+\fB\-u, \-\-repeat\fR
+Toggle repeat mode.
+.TP
+\fB\-i, \-\-inc_vol\fR
+Increase the volume by 1.
+.TP             
+\fB\-d, \-\-dec_vol\fR
+Decrease the volume by 1.
+.TP             
+\fB\-o, \-\-show_osd\fR
+Show OSD notification (a popup window with info about the current song).
+.TP
+\fB\-x, \-\-toggle_view\fR
+Toggle player visibility
+.TP             
+\fB\-c, \-\-current_state\fR
+Get current player state.
+.TP
+\fB\-a, \-\-audio_backend\fR
+Audio backend (valid options: alsa/oss)
+.TP
+\fB\-g, \-\-audio_device\fR
+Audio Device (For ALSA: hw:0,0 etc.., For OSS: /dev/dsp etc..)
+.TP
+\fB\-m, \-\-audio_mixer\fR
+Mixer Element (For ALSA: Master, PCM, etc.., For OSS: /dev/mixer, etc...)
+.TP             
+\fB\-\-display=DISPLAY\fR
+Set the X display to use.
+
+.SH "USAGE"
+.LP 
+* Add a library location in menu Edit \- Preferences.
+.br 
+* Rescan Library from menu Tools.
+.br 
+* Start using. :-)
+
+.SH "FILES"
+.TP 
+$HOME/.config/rena/rena.db
+Library database (in sqlite3 format)
+.TP 
+$HOME/.config/rena/config
+personal settings (use the GUI interface to change them, Edit \- Preferences)
+.TP 
+$HOME/.cache/rena-album-art
+Basic cache for downloaded cover art saved as artist \- album.jpeg
+.SH "AUTHORS"
+.nf 
+Rena was originally a fork of Pragha written by Matias De lellis. <mati86dl@gmail.com>
+At the moment developed by Santelmo Technologies. <santelmotechnologies@gmail.com>
+Man page written by Emir Ebreo <emir.ebreo@gmial.com>
+.SH "SEE ALSO"
+.LP 
+http://santelmotechnologies.github.io and http://santelmotechnologies.wixsite.com/rena

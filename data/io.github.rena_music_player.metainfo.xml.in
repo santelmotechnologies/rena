@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2014-2019 Matias De lellis -->
+<component>
+  <id>io.github.rena_music_player</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0+</project_license>
+  <_name>Rena Music Player</_name>
+  <_summary>Manage and listen your music</_summary>
+  <_description>
+    <p>
+      Rena is a Lightweight Music Player for GNU/Linux, based on GTK3, SQLite,
+      and completely written in C, constructed to be fast, light, and
+      simultaneously tries to be complete without obstructing the daily work.
+      Although it was especifically designed for the Xfce desktop, it integrates
+      very well in other desktop environments.
+    </p>
+    <p>Features:</p>
+    <ul>
+      <li>Full integration with GTK3 support, but always completely independent of gnome or xfce</li>
+      <li>Two panel desing inspired on Amarok 1.4. Library and current playlist</li>
+      <li>Library with multiple views, according tags or folder structure</li>
+      <li>Search, filtering and queue songs on current playlist</li>
+      <li>Playing and edit tag of mp3, m4a, ogg, flac, asf, wma, and ape files. Of course you need codecs</li>
+      <li>Playlist management. Exporting M3U and read M3U, PLS, XSPF and WAX playlists</li>
+      <li>Play audio CDs and identifies this with CDDB</li>
+      <li>Playback control with command line and MPRIS2</li>
+      <li>Native desktop notifications with libnotify</li>
+    </ul>
+  </_description>
+  <launchable type="desktop-id">rena.desktop</launchable>
+  <categories>
+    <category>AudioVideo</category>
+    <category>Audio</category>
+  </categories>
+  <keywords>
+    <_keyword>audio</_keyword>
+    <_keyword>multimedia</_keyword>
+    <_keyword>player</_keyword>
+  </keywords>
+  <url type="bugtracker">https://github.com/santelmotechnologies/rena/issues</url>
+  <url type="faq">https://github.com/santelmotechnologies/rena/wiki/FAQ</url>
+  <url type="homepage">http://santelmotechnologies.wixsite.com/rena</url>
+  <content_rating type="oars-1.1" />
+  <translation type="gettext">rena</translation>
+  <update_contact>santelmotechnologies_at_gmail.com</update_contact>
+  <developer_name>Santelmo Technologies</developer_name>
+</component>
