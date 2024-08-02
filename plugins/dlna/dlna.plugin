@@ -1,0 +1,9 @@
+[Plugin]
+Module=dlna
+Name=DLNA Server
+Description=Share your playlist on a DLNA server
+Authors=Emir Ebreo <emir.ebreo@gmail.com>
+Copyright=Copyright © 2024 Santelmo Technologies
+Website=https://github.com/santelmotechnologies/rena
+Help=https://github.com/santelmotechnologies/rena
+
