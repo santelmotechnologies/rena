@@ -1,0 +1,65 @@
+#
+# Sources
+#
+src/info-bar-import-music.c
+src/rena-background-task-bar.c
+src/rena-device-client.c
+src/rena-cmdline.c
+src/rena-equalizer-dialog.c
+src/rena-favorites.c
+src/rena-filter-dialog.c
+src/rena-library-pane.c
+src/rena-menubar.c
+src/rena-playlist.c
+src/rena-playlists-mgmt.c
+src/rena-preferences-dialog.c
+src/rena-scanner.c
+src/rena-search-entry.c
+src/rena-statusicon.c
+src/rena-tags-dialog.c
+src/rena-tags-mgmt.c
+src/rena-toolbar.c
+src/rena-utils.c
+src/rena-window.c
+src/rena.c
+src/main.c
+#
+# Builder Files
+#
+[type: gettext/glade]src/rena-window.ui
+
+
+#
+# Appdata
+#
+data/io.github.santelmotechnologies.metainfo.xml.in
+
+#
+# Desktop Files
+#
+data/rena.desktop.in
+
+#
+# Plugins
+#
+plugins/acoustid/rena-acoustid-plugin.c
+plugins/ampache/rena-ampache-plugin.c
+plugins/cdrom/rena-cdrom-plugin.c
+plugins/dlna/rena-dlna-plugin.c
+plugins/dlna-renderer/rena-dlna-renderer-plugin.c
+plugins/lastfm/rena-lastfm-plugin.c
+plugins/mtp/rena-mtp-thread.c
+plugins/mpris2/rena-mpris2-plugin.c
+plugins/notify/rena-notify-plugin.c
+plugins/koel/rena-koel-plugin.c
+plugins/removable-media/rena-devices-removable.c
+plugins/song-info/rena-song-info-dialog.c
+plugins/song-info/rena-song-info-pane.c
+plugins/song-info/rena-song-info-plugin.c
+plugins/song-info/rena-song-info-thread-dialog.c
+plugins/song-info/rena-song-info-thread-pane.c
+plugins/tunein/rena-tunein-plugin.c
+plugins/visualizer/rena-visualizer-plugin.c
+
+[type: gettext/glade]plugins/lastfm/rena-lastfm-menu.ui
+[type: gettext/glade]plugins/song-info/rena-song-info.ui
