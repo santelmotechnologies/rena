@@ -1,0 +1,28 @@
+Frequently Answered Questions
+=============================
+
+Q. Rena does not play certain audio file.
+A. Rena adds new audio formats on a par with taglib.
+   If compiled with taglib = 1.4, pragha support ogg, flac, mpeg, wav
+   and all variants. If taglib = 1.6 add support to asf, wma and m4a.
+   If taglib >= 1.7 also support ape files.
+   Then you need to install the gstreamer codecs needed to play them.
+   In general installing gstreamer-plugins-bad and gstreamer-plugins-ugly
+   you can play all files.
+
+Q. Rena does not use symbolic icons.
+A. It was decided to use generic icons, and leave trhe design problems, to the
+   designers!.
+   As a developer, I just want to show an icon that when clicked, must start
+   the playback. "media-playback-start" sounds good. Do not?. Well, The
+   GNOME developers recommend using "media-playback-start-symbolic". Why?.
+   because the icon may not look good with dark themes. Ok.. But this is my
+   problem? No!. It's from the designers.
+   They can make the icons look symbolic where they think convenient. You do not
+   believe me? Add the following line to your favorite theme.
+   '.header-bar { -gtk-icon-style: symbolic; }'
+   or "GtkHeaderBar {-gtk-icon-style: symbolic;}' if you use gtk3 < 3.20.
+   In the same way you can force system tray icons symbolics adding this line
+   'GtkTrayIcon { -gtk-icon-style: symbolic; }"
+   If you only want to change the Rena icons, you can do it by adding a file
+   '~/.config/rena/custom.css' with this.
