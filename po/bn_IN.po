@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Santelmo Technologies <santelmotechnologies@gmail.com>, 2024.
 #
 # Translators:
 # Santelmo Technologies . <santelmotechnologies@gmail.com>, 2024
@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-13 19:32-0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2024-08-05 18:20+0000\n"
 "Last-Translator: Emir A. Ebreo <emir.ebreo@gmail.com>\n"
 "Language-Team: Bengali INDIA (https://github.com/santelmotechnologies/sirena/blob/main/po/bn.po)\n"
 "Language: bn_IN\n"
