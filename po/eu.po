@@ -1,0 +1,1507 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Santelmo Technologies <santelmotechnologies@gmail.com>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Rena\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-13 19:32-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Emir A. Ebreo <emir.ebreo@gmail.com>\n"
+"Language-Team: Basque (http://www.transifex.com/santelmotechnologies/Rena/language/oc/)\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#. Create root container
+#: ../src/info-bar-import-music.c:55 ../plugins/dlna/rena-dlna-plugin.c:235
+msgid "Local Music"
+msgstr "Eskualdeko musika"
+
+#. GtkInfoBar has undocumented behavior for GTK_RESPONSE_CANCEL
+#: ../src/info-bar-import-music.c:77 ../src/info-bar-import-music.c:124
+#: ../src/info-bar-import-music.c:167
+msgid "_No"
+msgstr "Ez"
+
+#: ../src/info-bar-import-music.c:78 ../src/info-bar-import-music.c:125
+#: ../src/info-bar-import-music.c:168
+msgid "_Yes"
+msgstr "Bai"
+
+#: ../src/info-bar-import-music.c:80
+#, c-format
+msgid "Would you like to import %s to library?"
+msgstr "%s liburutegira inportatu nahi duzu?"
+
+#: ../src/info-bar-import-music.c:127
+msgid "Would you like to update your music library?"
+msgstr "Musika-liburutegia eguneratu nahi duzu?"
+
+#: ../src/info-bar-import-music.c:170
+msgid "Some changes need restart rena."
+msgstr "Aldaketa batzuk egin behar ditugu."
+
+#: ../src/rena-background-task-bar.c:82
+#: ../src/rena-background-task-bar.c:125
+msgid "There are background tasks working"
+msgstr "Atzeko planoan beste batzuk daude."
+
+#: ../src/rena-device-client.c:113
+msgid "Ignore"
+msgstr "Ez kasurik egin"
+
+#: ../src/rena-cmdline.c:192
+msgid "FILENAME"
+msgstr "FILENAME"
+
+#: ../src/rena-cmdline.c:251
+msgid "Use --help to see a full list of available command line options."
+msgstr "Erabili --help eskuragarri dauden agindu-lerroaren aukera-zerrenda osoa ikusteko."
+
+#: ../src/rena-equalizer-dialog.c:50
+msgid "Disabled"
+msgstr "Desgaituak"
+
+#: ../src/rena-equalizer-dialog.c:51
+msgid "Classical"
+msgstr "Klasikoa"
+
+#: ../src/rena-equalizer-dialog.c:52
+msgid "Club"
+msgstr "Klub baten antzekoa"
+
+#: ../src/rena-equalizer-dialog.c:53
+msgid "Dance"
+msgstr "Dantza"
+
+#: ../src/rena-equalizer-dialog.c:54
+msgid "Full Bass"
+msgstr "Baxu oso bat"
+
+#: ../src/rena-equalizer-dialog.c:55
+msgid "Full Bass and Treble"
+msgstr "Baxuak eta baxuak"
+
+#: ../src/rena-equalizer-dialog.c:56
+msgid "Full Treble"
+msgstr "Oso goian dago."
+
+#: ../src/rena-equalizer-dialog.c:57
+msgid "Laptop Speakers and Headphones"
+msgstr "Ordenagailu eramangarrientzako bozgorailuak eta entzungailuak"
+
+#: ../src/rena-equalizer-dialog.c:58
+msgid "Large Hall"
+msgstr "Areto Handia"
+
+#: ../src/rena-equalizer-dialog.c:59
+msgid "Live"
+msgstr "Bizirik"
+
+#: ../src/rena-equalizer-dialog.c:60
+msgid "Party"
+msgstr "Alderdiak"
+
+#: ../src/rena-equalizer-dialog.c:61
+msgid "Pop"
+msgstr "Pop"
+
+#: ../src/rena-equalizer-dialog.c:62
+msgid "Reggae"
+msgstr "Reggae"
+
+#: ../src/rena-equalizer-dialog.c:63
+msgid "Rock"
+msgstr "Rock"
+
+#: ../src/rena-equalizer-dialog.c:64
+msgid "Ska"
+msgstr "Ska"
+
+#: ../src/rena-equalizer-dialog.c:65
+msgid "Smiley Face Curve"
+msgstr "Aurpegi irribarretsuaren kurba"
+
+#: ../src/rena-equalizer-dialog.c:66
+msgid "Soft"
+msgstr "Leuna"
+
+#: ../src/rena-equalizer-dialog.c:67
+msgid "Soft Rock"
+msgstr "Soft Rock"
+
+#: ../src/rena-equalizer-dialog.c:68
+msgid "Techno"
+msgstr "Techno"
+
+#: ../src/rena-equalizer-dialog.c:69
+msgid "Custom"
+msgstr "Ohikoak"
+
+#: ../src/rena-equalizer-dialog.c:423
+msgid "Equalizer"
+msgstr "Ekualizatzailea"
+
+#: ../src/rena-favorites.c:110 ../src/rena-favorites.c:120
+#: ../src/rena-favorites.c:130 ../src/rena-favorites.c:132
+#: ../src/rena-library-pane.c:1197 ../src/rena-playlists-mgmt.c:1378
+#: ../src/rena-playlists-mgmt.c:1415 ../src/rena.c:1106
+#: ../src/rena.c:1108 ../plugins/koel/rena-koel-plugin.c:535
+msgid "Favorites"
+msgstr "Gogokoenak"
+
+#: ../src/rena-filter-dialog.c:218 ../src/rena-library-pane.c:626
+#: ../src/rena-tags-dialog.c:114 ../plugins/mtp/rena-mtp-thread.c:471
+#: ../plugins/notify/rena-notify-plugin.c:166
+msgid "Unknown Artist"
+msgstr "Artista ezezaguna"
+
+#: ../src/rena-filter-dialog.c:219 ../src/rena-library-pane.c:633
+#: ../src/rena-library-pane.c:638 ../src/rena-tags-dialog.c:115
+#: ../plugins/mtp/rena-mtp-thread.c:480
+#: ../plugins/notify/rena-notify-plugin.c:167
+msgid "Unknown Album"
+msgstr "Disko ezezaguna"
+
+#. The search dialog
+#: ../src/rena-filter-dialog.c:368
+msgid "Search in playlist"
+msgstr "Jolas-zerrendan bilatu"
+
+#: ../src/rena-filter-dialog.c:371
+msgid "_Close"
+msgstr "Itxi"
+
+#: ../src/rena-filter-dialog.c:374 ../src/rena-playlist.c:210
+msgid "Add to playback queue"
+msgstr "Jarri behin eta berriro."
+
+#: ../src/rena-filter-dialog.c:375
+msgid "_Jump to"
+msgstr "Egin salto eta sartu."
+
+#: ../src/rena-library-pane.c:141
+msgid "_Skip"
+msgstr "Ez egin txantxarik."
+
+#: ../src/rena-library-pane.c:142
+msgid "S_kip All"
+msgstr "Ahaztu dena"
+
+#: ../src/rena-library-pane.c:143
+msgid "Delete _All"
+msgstr "Guztiak ezabatu"
+
+#: ../src/rena-library-pane.c:631 ../src/rena-tags-dialog.c:105
+msgid "Unknown"
+msgstr "Ezagutzen ez dena"
+
+#: ../src/rena-library-pane.c:643
+msgid "Unknown Genre"
+msgstr "Genero ezezaguna"
+
+#: ../src/rena-library-pane.c:971
+msgid "File can't be moved to trash. Delete permanently?"
+msgstr "Fitxategiak ez dira karpetarako gordetzen. Ezabatu dena."
+
+#: ../src/rena-library-pane.c:972
+#, c-format
+msgid "The file \"%s\" cannot be moved to the trash. Details: %s"
+msgstr "Ezin da \"%s\" artxiboa zaborretara eraman. Zehaztasunak: %s"
+
+#: ../src/rena-library-pane.c:980 ../src/rena-playlists-mgmt.c:86
+#: ../src/rena-playlists-mgmt.c:518 ../src/rena-playlists-mgmt.c:590
+#: ../src/rena-playlists-mgmt.c:1270 ../src/rena-preferences-dialog.c:703
+#: ../src/rena-preferences-dialog.c:1354 ../src/rena-tags-dialog.c:149
+#: ../src/rena.c:208 ../src/rena.c:407
+#: ../plugins/lastfm/rena-lastfm-plugin.c:845
+#: ../plugins/tunein/rena-tunein-plugin.c:268
+msgid "_Cancel"
+msgstr "Itzali"
+
+#: ../src/rena-library-pane.c:986
+msgid "_Delete"
+msgstr "Ezabatu"
+
+#: ../src/rena-library-pane.c:1817 ../src/rena-window.ui.h:30
+msgid "Folders structure"
+msgstr "Karpeten egitura"
+
+#: ../src/rena-library-pane.c:1826 ../src/rena-playlist.c:115
+#: ../src/rena-playlist.c:3503 ../src/rena-statusicon.c:222
+#: ../src/rena-tags-dialog.c:168 ../src/rena-tags-dialog.c:1104
+#: ../src/rena-window.ui.h:31
+msgid "Artist"
+msgstr "Artistak"
+
+#: ../src/rena-library-pane.c:1835 ../src/rena-playlist.c:116
+#: ../src/rena-playlist.c:3504 ../src/rena-statusicon.c:223
+#: ../src/rena-tags-dialog.c:169 ../src/rena-tags-dialog.c:1109
+#: ../src/rena-window.ui.h:32
+msgid "Album"
+msgstr "Artistak"
+
+#: ../src/rena-library-pane.c:1844 ../src/rena-playlist.c:117
+#: ../src/rena-playlist.c:3505 ../src/rena-tags-dialog.c:170
+#: ../src/rena-tags-dialog.c:1114 ../src/rena-window.ui.h:33
+msgid "Genre"
+msgstr "Generoa"
+
+#: ../src/rena-library-pane.c:1856 ../src/rena-window.ui.h:34
+msgid "Artist / Album"
+msgstr "Artistak / Diskoak"
+
+#: ../src/rena-library-pane.c:1868 ../src/rena-window.ui.h:36
+msgid "Genre / Artist"
+msgstr "Generoa / Artistak"
+
+#: ../src/rena-library-pane.c:1880 ../src/rena-window.ui.h:35
+msgid "Genre / Album"
+msgstr "Generoa / Diskoak"
+
+#: ../src/rena-library-pane.c:1895 ../src/rena-window.ui.h:37
+msgid "Genre / Artist / Album"
+msgstr "Generoa / Artistak / Diskoak"
+
+#: ../src/rena-library-pane.c:2123 ../src/rena-library-pane.c:2237
+#: ../src/rena-playlists-mgmt.c:619 ../src/rena-playlists-mgmt.c:646
+#: ../src/rena.c:305
+msgid "Playlists"
+msgstr "Jolas zerrendak"
+
+#: ../src/rena-library-pane.c:2139 ../src/rena-library-pane.c:2246
+msgid "Radios"
+msgstr "Irratiak"
+
+#: ../src/rena-library-pane.c:2678
+msgid "Really want to move the files to trash?"
+msgstr "Benetan fitxategiak zaborretara eraman nahi dituzu?"
+
+#: ../src/rena-library-pane.c:2680
+msgid "Delete permanently instead of moving to trash"
+msgstr "Ezabatu behin betiko, zaborretara joan beharrean"
+
+#: ../src/rena-library-pane.c:2734
+msgid ""
+"Are you sure you want to delete current file from library?\n"
+"\n"
+"Warning: To recover we must rescan the entire library."
+msgstr ""
+"Ziur zaude fitxategiak ezabatu nahi dituzula?\n"
+"\n"
+"Kontuz: berreskuratu nahi badugu, liburutegi osoa eskaneatu behar da."
+
+#: ../src/rena-menubar.c:193
+msgid "_Playback"
+msgstr "Jarri atzera"
+
+#: ../src/rena-menubar.c:194
+msgid "Play_list"
+msgstr "Joko-zerrenda"
+
+#: ../src/rena-menubar.c:195
+msgid "_View"
+msgstr "Ikusketa"
+
+#: ../src/rena-menubar.c:196 ../src/rena-playlist.c:223
+msgid "_Tools"
+msgstr "Erreminta fitxategiak"
+
+#: ../src/rena-menubar.c:197
+msgid "_Help"
+msgstr "Laguntza"
+
+#: ../src/rena-menubar.c:198 ../src/rena-window.ui.h:24
+#: ../plugins/notify/rena-notify-plugin.c:177
+msgid "Previous track"
+msgstr "Aurreko pista"
+
+#: ../src/rena-menubar.c:200 ../src/rena-window.ui.h:25
+msgid "Play / Pause"
+msgstr "Jarrai / Gelditu abiadura"
+
+#: ../src/rena-menubar.c:202 ../src/rena-window.ui.h:26
+msgid "Stop"
+msgstr "Gelditu oraintxe bertan"
+
+#: ../src/rena-menubar.c:204 ../src/rena-window.ui.h:27
+#: ../plugins/notify/rena-notify-plugin.c:181
+msgid "Next track"
+msgstr "Aurreko pista"
+
+#: ../src/rena-menubar.c:206 ../src/rena-playlist.c:226
+#: ../src/rena-window.ui.h:4
+msgid "Edit track information"
+msgstr "Errepidearen informazioa editatzea"
+
+#: ../src/rena-menubar.c:208 ../src/rena-window.ui.h:23
+msgid "_Quit"
+msgstr "_itzali"
+
+#: ../src/rena-menubar.c:210 ../src/rena-window.ui.h:1
+msgid "_Add files"
+msgstr "Fitxategiak gehitu"
+
+#: ../src/rena-menubar.c:211
+msgid "Open a media file"
+msgstr "Hedabideen fitxategi bat ireki"
+
+#: ../src/rena-menubar.c:212 ../src/rena-window.ui.h:2
+msgid "Add _location"
+msgstr "Kontzentrazioa gehitu"
+
+#: ../src/rena-menubar.c:214 ../src/rena-window.ui.h:3
+msgid "_Add the library"
+msgstr "Liburutegia gehitu"
+
+#: ../src/rena-menubar.c:216 ../src/rena-window.ui.h:6
+msgid "Remove selection from playlist"
+msgstr "Aukera ezabatu erreprodukzio-zerrendatik"
+
+#: ../src/rena-menubar.c:218 ../src/rena-playlist.c:216
+#: ../src/rena-window.ui.h:7
+msgid "Crop playlist"
+msgstr "Jarrera-zerrenda moztu"
+
+#: ../src/rena-menubar.c:220 ../src/rena-playlist.c:218
+#: ../src/rena-window.ui.h:8
+msgid "Clear playlist"
+msgstr "Erakutsi zerrenda"
+
+#: ../src/rena-menubar.c:222 ../src/rena-playlist.c:220
+#: ../src/rena-playlists-mgmt.c:70 ../src/rena-playlists-mgmt.c:93
+#: ../src/rena-playlists-mgmt.c:1275 ../src/rena-window.ui.h:9
+msgid "Save playlist"
+msgstr "Jarri musika zerrenda gordeta"
+
+#: ../src/rena-menubar.c:223 ../src/rena-menubar.c:228
+#: ../src/rena-playlists-mgmt.c:1364 ../src/rena-playlists-mgmt.c:1401
+#: ../src/rena-window.ui.h:10
+msgid "New playlist"
+msgstr "Kantu zerrenda berria"
+
+#: ../src/rena-menubar.c:225 ../src/rena-menubar.c:230
+#: ../src/rena-playlists-mgmt.c:1368 ../src/rena-playlists-mgmt.c:1405
+#: ../src/rena-window.ui.h:11
+msgid "Export"
+msgstr "Esportazioa"
+
+#: ../src/rena-menubar.c:227 ../src/rena-playlist.c:221
+#: ../src/rena-playlists-mgmt.c:72 ../src/rena-playlists-mgmt.c:95
+#: ../src/rena-playlists-mgmt.c:1277 ../src/rena-window.ui.h:12
+msgid "Save selection"
+msgstr "Aukera gorde"
+
+#: ../src/rena-menubar.c:232 ../src/rena-window.ui.h:13
+msgid "_Search in playlist"
+msgstr "Bilatu jartzeko zerrendan"
+
+#: ../src/rena-menubar.c:234 ../src/rena-window.ui.h:21
+msgid "_Preferences"
+msgstr "Aurrez aurrekoak"
+
+#: ../src/rena-menubar.c:236 ../src/rena-window.ui.h:14
+msgid "Jump to playing song"
+msgstr "Kantu bat jotzen hasiko gara"
+
+#: ../src/rena-menubar.c:238 ../src/rena-window.ui.h:5
+msgid "E_qualizer"
+msgstr "Ekualifikatzailea"
+
+#: ../src/rena-menubar.c:240 ../src/rena-window.ui.h:19
+msgid "_Rescan library"
+msgstr "Eskaneatu liburutegia"
+
+#: ../src/rena-menubar.c:242 ../src/rena-window.ui.h:20
+msgid "_Update library"
+msgstr "liburutegia eguneratu"
+
+#: ../src/rena-menubar.c:244
+msgid "_Statistics"
+msgstr "Estatistikak"
+
+#: ../src/rena-menubar.c:246
+msgid "Homepage"
+msgstr "Orri nagusia"
+
+#: ../src/rena-menubar.c:248
+msgid "Community"
+msgstr "Erlazio komunitatea"
+
+#: ../src/rena-menubar.c:250
+msgid "Wiki"
+msgstr "Wiki"
+
+#: ../src/rena-menubar.c:252
+msgid "Translate Rena"
+msgstr ""
+
+#: ../src/rena-menubar.c:254 ../src/rena-window.ui.h:22
+msgid "About"
+msgstr "Gertatzen dena"
+
+#: ../src/rena-menubar.c:259
+msgid "_Shuffle"
+msgstr "Erakutsi zer egin behar den"
+
+#: ../src/rena-menubar.c:262
+msgid "_Repeat"
+msgstr "Errepikatu"
+
+#: ../src/rena-menubar.c:265
+msgid "_Fullscreen"
+msgstr "Pantaila osoa"
+
+#: ../src/rena-menubar.c:268
+msgid "Lateral _panel"
+msgstr "Alde bateko bigarren panela"
+
+#: ../src/rena-menubar.c:271
+msgid "Secondary lateral panel"
+msgstr "Aurreko erreprodukzioaren kontrolak"
+
+#: ../src/rena-menubar.c:274
+msgid "Playback controls below"
+msgstr "Beheko erreprodukzio kontrolak"
+
+#: ../src/rena-menubar.c:277
+msgid "Menubar"
+msgstr "Menubarra"
+
+#: ../src/rena-menubar.c:638
+msgid "Total Tracks:"
+msgstr "Bide guztiak"
+
+#: ../src/rena-menubar.c:640
+msgid "Total Artists:"
+msgstr "Artista guztiak"
+
+#: ../src/rena-menubar.c:642
+msgid "Total Albums:"
+msgstr "Albuma guztiak"
+
+#: ../src/rena-menubar.c:645
+msgid "Statistics"
+msgstr "Estatistikak"
+
+#. Create labels
+#: ../src/rena-playlist.c:114 ../src/rena-playlist.c:3502
+#: ../src/rena-statusicon.c:221 ../src/rena-tags-dialog.c:167
+#: ../src/rena-tags-dialog.c:1099
+msgid "Title"
+msgstr "Izenburua"
+
+#: ../src/rena-playlist.c:118 ../src/rena-playlist.c:3506
+#: ../src/rena-tags-dialog.c:690
+msgid "Bitrate"
+msgstr "Bit-tasa"
+
+#: ../src/rena-playlist.c:119 ../src/rena-playlist.c:3507
+#: ../src/rena-tags-dialog.c:172
+msgid "Year"
+msgstr "Urtea"
+
+#: ../src/rena-playlist.c:120 ../src/rena-playlist.c:3508
+#: ../src/rena-tags-dialog.c:173 ../src/rena-tags-dialog.c:1119
+msgid "Comment"
+msgstr "iruzkinak"
+
+#. Create labels
+#: ../src/rena-playlist.c:121 ../src/rena-playlist.c:3509
+#: ../src/rena-statusicon.c:224 ../src/rena-tags-dialog.c:689
+msgid "Length"
+msgstr "Luzera"
+
+#: ../src/rena-playlist.c:122 ../src/rena-playlist.c:3510
+#: ../src/rena-tags-dialog.c:694
+msgid "Filename"
+msgstr "Fitxategiaren izena"
+
+#: ../src/rena-playlist.c:123 ../src/rena-playlist.c:3511
+#: ../src/rena-tags-dialog.c:695
+msgid "Mimetype"
+msgstr "Mimetype bat"
+
+#: ../src/rena-playlist.c:212
+msgid "Remove from playback queue"
+msgstr "Ezabatu erreproduzitzeko ilaran"
+
+#: ../src/rena-playlist.c:214
+msgid "Remove from playlist"
+msgstr "Ezabatu zerrendatik"
+
+#: ../src/rena-playlist.c:222
+msgid "_Send to"
+msgstr "Bidal ezazu"
+
+#: ../src/rena-playlist.c:2535
+#, c-format
+msgid "Copy \"%i\" to selected track numbers"
+msgstr "Kopiatu \"%i\" aukeratutako ibilbide zenbakietara."
+
+#: ../src/rena-playlist.c:2541
+#, c-format
+msgid "Copy \"%s\" to selected titles"
+msgstr "\"%s\" izenburu aukeratuetara kopiatu"
+
+#: ../src/rena-playlist.c:2547
+#, c-format
+msgid "Copy \"%s\" to selected artists"
+msgstr "\"%s\" kopiatu eta artistekin konparatu"
+
+#: ../src/rena-playlist.c:2553
+#, c-format
+msgid "Copy \"%s\" to selected albums"
+msgstr "Kopiatu \"%s\" aukeratutako albumetara"
+
+#: ../src/rena-playlist.c:2559
+#, c-format
+msgid "Copy \"%s\" to selected genres"
+msgstr "\"%s\" genero hautatuetara kopiatzea"
+
+#: ../src/rena-playlist.c:2565
+#, c-format
+msgid "Copy \"%i\" to selected years"
+msgstr "Kopia \"%i\" ezabatutako urtetara"
+
+#: ../src/rena-playlist.c:2571
+#, c-format
+msgid "Copy \"%s\" to selected comments"
+msgstr "\"%s\" kopiatu hautatuen iruzkinetara"
+
+#. Create the checkmenu items
+#: ../src/rena-playlist.c:3501 ../src/rena.c:637
+msgid "Track"
+msgid_plural "Tracks"
+msgstr[0] "Bidea"
+msgstr[1] "Bideak"
+
+#: ../src/rena-playlist.c:3514
+msgid "Clear sort"
+msgstr "Sailkatze garbia"
+
+#: ../src/rena-playlists-mgmt.c:74
+msgid "Playlist"
+msgstr "Jarduteko zerrenda"
+
+#: ../src/rena-playlists-mgmt.c:87 ../src/rena-playlists-mgmt.c:519
+#: ../src/rena-playlists-mgmt.c:1271 ../src/rena-preferences-dialog.c:1355
+#: ../src/rena-tags-dialog.c:150 ../src/rena-tags-dialog.c:789
+#: ../src/rena.c:408 ../plugins/song-info/rena-song-info-dialog.c:84
+#: ../plugins/tunein/rena-tunein-plugin.c:269
+msgid "_Ok"
+msgstr "Ondo dago"
+
+#: ../src/rena-playlists-mgmt.c:130
+msgid "<b>con_playlist</b> is a reserved playlist name"
+msgstr "<b>con_playlist</b> erreprodukzio zerrenda erreserbatua da"
+
+#: ../src/rena-playlists-mgmt.c:154
+#, c-format
+msgid "Do you want to overwrite the playlist: %s ?"
+msgstr "Ezabatu nahi duzu: %s ?"
+
+#: ../src/rena-playlists-mgmt.c:508
+msgid "Choose a new name"
+msgstr "Aukeratu izen bat"
+
+#: ../src/rena-playlists-mgmt.c:515 ../src/rena-window.ui.h:42
+msgid "Rename"
+msgstr "Izena aldatu."
+
+#: ../src/rena-playlists-mgmt.c:557
+#, c-format
+msgid "Do you want to delete the item: %s ?"
+msgstr "Ezabatu egin nahi duzu: %s ?"
+
+#: ../src/rena-playlists-mgmt.c:587
+msgid "Export playlist to file"
+msgstr "Fitxategira esportatu"
+
+#: ../src/rena-playlists-mgmt.c:591
+msgid "_Save"
+msgstr "Gorde ezazu."
+
+#: ../src/rena-playlists-mgmt.c:1036
+#: ../plugins/lastfm/rena-lastfm-plugin.c:818
+#, c-format
+msgid "Added %d songs from %d of the imported playlist."
+msgstr "%d abesti gehitu dira %d jatorrizko zerrendatik."
+
+#: ../src/rena-playlists-mgmt.c:1255
+msgid "What do you want to do?"
+msgstr "Zer egin nahi duzu?"
+
+#: ../src/rena-playlists-mgmt.c:1257
+#, c-format
+msgid "Replace the playlist \"%s\""
+msgstr "Euskaratze zerrenda ordeztu \"%s\""
+
+#: ../src/rena-playlists-mgmt.c:1262
+#, c-format
+msgid "Add to playlist \"%s\""
+msgstr "Jarri zerrendan \"%s\""
+
+#: ../src/rena-preferences-dialog.c:204
+msgid ""
+"Patterns should be of the form:<filename>;<filename>;....\n"
+"A maximum of six patterns are allowed.\n"
+"Wildcards are not accepted as of now ( patches welcome :-) )."
+msgstr ""
+"Ereduak honelakoak izan beharko lukete:<filename>;<filename>;....\n"
+"Gehienez ere 6 eredu onartzen dira.\n"
+"Oraingoz jokalariak ez dira onartzen."
+
+#: ../src/rena-preferences-dialog.c:227
+msgid "Album art pattern"
+msgstr "Diskoaren azaleko diseinua"
+
+#: ../src/rena-preferences-dialog.c:545
+#: ../src/rena-preferences-dialog.c:1205
+msgid "Start normal"
+msgstr "Hasiera normala"
+
+#: ../src/rena-preferences-dialog.c:549
+#: ../src/rena-preferences-dialog.c:1206
+msgid "Start fullscreen"
+msgstr "Pantaila osorako hasiera"
+
+#: ../src/rena-preferences-dialog.c:553
+#: ../src/rena-preferences-dialog.c:1207
+msgid "Start in system tray"
+msgstr "Sistemaren kaxatik abiatzea"
+
+#. Create a folder chooser dialog
+#: ../src/rena-preferences-dialog.c:700
+msgid "Select a folder to add to library"
+msgstr "Aukeratu karpeta bat liburutegian gehitzeko"
+
+#: ../src/rena-preferences-dialog.c:704
+#: ../plugins/lastfm/rena-lastfm-plugin.c:846
+msgid "_Open"
+msgstr "Ireki"
+
+#. Audio
+#: ../src/rena-preferences-dialog.c:929
+#: ../src/rena-preferences-dialog.c:1391
+msgid "Audio"
+msgstr "Audioa"
+
+#: ../src/rena-preferences-dialog.c:931
+msgid "Audio sink"
+msgstr "Audioa itzaltzeko"
+
+#: ../src/rena-preferences-dialog.c:935
+#: ../src/rena-preferences-dialog.c:955
+#: ../src/rena-preferences-dialog.c:961
+msgid "Restart Required"
+msgstr "Berrabiarazi beharra dago."
+
+#: ../src/rena-preferences-dialog.c:950
+msgid "Audio Device"
+msgstr "Audio gailua"
+
+#: ../src/rena-preferences-dialog.c:960
+msgid "Use software mixer"
+msgstr "Erabili softwarearen nahasketa"
+
+#: ../src/rena-preferences-dialog.c:994
+#: ../src/rena-preferences-dialog.c:1362
+msgid "Library"
+msgstr "Liburutegia"
+
+#: ../src/rena-preferences-dialog.c:998
+msgid "Can not change directories while they are analyzing."
+msgstr "Ezin duzu aldatu aldatu analisiak egiten diren bitartean."
+
+#: ../src/rena-preferences-dialog.c:1018
+msgid "Folders"
+msgstr "Karpetak"
+
+#: ../src/rena-preferences-dialog.c:1052 ../src/rena.c:209
+msgid "_Add"
+msgstr "Gehitu"
+
+#: ../src/rena-preferences-dialog.c:1053
+msgid "_Remove"
+msgstr "Kendu ezazu"
+
+#. Sort by year option.
+#: ../src/rena-preferences-dialog.c:1069
+msgid "Sort albums by release year"
+msgstr "Sortu diskoak kaleratze urtearen arabera"
+
+#: ../src/rena-preferences-dialog.c:1106
+#: ../src/rena-preferences-dialog.c:1361
+msgid "Playback"
+msgstr "Jarduketa"
+
+#: ../src/rena-preferences-dialog.c:1108 ../src/rena-window.c:136
+msgid "Ignore errors and continue playback"
+msgstr "Ez kontuan izan okerrak eta segi aurrera"
+
+#. Labels
+#: ../src/rena-preferences-dialog.c:1130
+#: ../src/rena-preferences-dialog.c:1360
+msgid "Appearance"
+msgstr "Itxura"
+
+#: ../src/rena-preferences-dialog.c:1132
+msgid "Use system title bar and borders"
+msgstr "Erabili sistemaren izenburuko barrak eta ertzak"
+
+#: ../src/rena-preferences-dialog.c:1138
+msgid "Use small icons on the toolbars"
+msgstr "Ikono txikiak erabili, tresna-barra horietan"
+
+#: ../src/rena-preferences-dialog.c:1141
+msgid "Controls"
+msgstr "Kontrolak"
+
+#: ../src/rena-preferences-dialog.c:1143
+msgid "Show Album art in Panel"
+msgstr "Albumearen azalera panel batean erakutsi"
+
+#: ../src/rena-preferences-dialog.c:1146
+msgid "Size of Album art"
+msgstr "Albumearen azalera"
+
+#: ../src/rena-preferences-dialog.c:1151
+msgid "Album art file pattern"
+msgstr "Albume artxiboko fitxategi eredua"
+
+#: ../src/rena-preferences-dialog.c:1193 ../src/rena-search-entry.c:116
+msgid "Search"
+msgstr "Bilatzen jarraituko dut"
+
+#. Instant search.
+#: ../src/rena-preferences-dialog.c:1195 ../src/rena-search-entry.c:41
+msgid "Search while typing"
+msgstr "Sakatu idazten ari zarenean"
+
+#. Aproximate search.
+#: ../src/rena-preferences-dialog.c:1198 ../src/rena-search-entry.c:48
+msgid "Search similar words"
+msgstr "Bilatu antzeko hitzak"
+
+#: ../src/rena-preferences-dialog.c:1201
+msgid "When starting rena"
+msgstr "Rena abiatzen denean"
+
+#: ../src/rena-preferences-dialog.c:1204
+msgid "Remember last window state"
+msgstr "Ahaztu azken leihoaren egoera"
+
+#: ../src/rena-preferences-dialog.c:1210
+msgid "Restore last playlist"
+msgstr "Jarri azken errepertorioa martxan"
+
+#: ../src/rena-preferences-dialog.c:1213
+msgid "When adding folders"
+msgstr "Folderrak gehitzen direnean"
+
+#: ../src/rena-preferences-dialog.c:1214 ../src/rena.c:200
+msgid "Add files recursively"
+msgstr "Fitxategiak errekurtsiboki gehitu"
+
+#: ../src/rena-preferences-dialog.c:1238
+#: ../src/rena-preferences-dialog.c:1406
+msgid "Desktop"
+msgstr "Funtzionarioak"
+
+#: ../src/rena-preferences-dialog.c:1240
+msgid "Show Rena icon in the notification area"
+msgstr "Ikus dezagun Rena irudia jakinarazpen eremuan"
+
+#: ../src/rena-preferences-dialog.c:1243
+msgid "Minimize Rena when closing window"
+msgstr "Itxi leihoa itxi orduko"
+
+#: ../src/rena-preferences-dialog.c:1264
+#: ../src/rena-preferences-dialog.c:1365
+msgid "Plugins"
+msgstr "Plugins"
+
+#. The main preferences dialog
+#: ../src/rena-preferences-dialog.c:1351
+msgid "Preferences"
+msgstr "Aukerak"
+
+#: ../src/rena-preferences-dialog.c:1363
+msgid "General"
+msgstr "Orokorrak"
+
+#: ../src/rena-preferences-dialog.c:1410
+msgid "Services"
+msgstr "zerbitzuak"
+
+#: ../src/rena-preferences-dialog.c:1424
+msgid "Preferences of Rena"
+msgstr "Renaren lehentasunak"
+
+#: ../src/rena-scanner.c:96 ../plugins/ampache/rena-ampache-plugin.c:677
+#, c-format
+msgid "%i files analyzed of %i detected"
+msgstr "%i fitxategiak aztertuak %i hautemanak"
+
+#. Create background task widget
+#. New Task widget
+#: ../src/rena-scanner.c:102 ../src/rena-scanner.c:341
+#: ../src/rena-scanner.c:730 ../plugins/ampache/rena-ampache-plugin.c:1424
+#: ../plugins/koel/rena-koel-plugin.c:1252
+msgid "Searching files to analyze"
+msgstr "Fitxategiak bilatzen ari naiz aztertzeko"
+
+#: ../src/rena-scanner.c:257
+msgid "Library scan complete"
+msgstr "Liburutegiaren eskaneatzea amaitu da"
+
+#: ../src/rena-statusicon.c:216 ../src/rena-toolbar.c:171
+#: ../src/rena-toolbar.c:550
+msgid "<b>Not playing</b>"
+msgstr "<b>Ez da jokatzen ari</b>"
+
+#. Set dialog properties
+#: ../src/rena-tags-dialog.c:147 ../src/rena-window.ui.h:45
+msgid "Edit tags"
+msgstr "Editatu etiketak"
+
+#: ../src/rena-tags-dialog.c:171
+msgid "Track No"
+msgstr "Ibilbidearen zenbakia"
+
+#: ../src/rena-tags-dialog.c:174
+msgid "File"
+msgstr "Fitxategiak"
+
+#. The main edit dialog
+#: ../src/rena-tags-dialog.c:570 ../src/rena-tags-dialog.c:786
+msgid "Details"
+msgstr "Xehetasunak"
+
+#: ../src/rena-tags-dialog.c:672
+msgid "channel"
+msgid_plural "channels"
+msgstr[0] "Kate"
+msgstr[1] "kanalak"
+
+#: ../src/rena-tags-dialog.c:691
+msgid "Channels"
+msgstr "Kanal txikiak"
+
+#: ../src/rena-tags-dialog.c:692
+msgid "Samplerate"
+msgstr "Erantzunik ez"
+
+#: ../src/rena-tags-dialog.c:693
+msgid "Folder"
+msgstr "Erregistroa irekita dago"
+
+#: ../src/rena-tags-dialog.c:1092
+msgid "Selection to"
+msgstr "Aukera bat egin behar da"
+
+#: ../src/rena-tags-dialog.c:1130
+msgid "Open folder"
+msgstr "Faltsa ireki"
+
+#: ../src/rena-tags-mgmt.c:197
+#, c-format
+msgid ""
+"Do you want to set the track number of ALL of the selected tracks to: %d ?"
+msgstr ""
+"Aukeratutako ibilbide guztien jarraipen-zenbakia ezarri nahi duzu: %d ?"
+
+#: ../src/rena-tags-mgmt.c:215
+#, c-format
+msgid "Do you want to set the title tag of ALL of the selected tracks to: %s ?"
+msgstr "Aukeratutako ibilbide guztiak nahi dituzu: %s ?"
+
+#: ../src/rena-toolbar.c:147
+#, c-format
+msgid ""
+"%s <small><span weight=\"light\">by</span></small> %s <small><span weight="
+"\"light\">in</span></small> %s"
+msgstr ""
+"%s <small><span weight=\"light\">by</span></small> %s <small><span weight="
+"\"light\">in</span></small> %s"
+
+#: ../src/rena-toolbar.c:152
+#: ../plugins/song-info/rena-song-info-thread-dialog.c:53
+#, c-format
+msgid "%s <small><span weight=\"light\">by</span></small> %s"
+msgstr "%s <small><span weight=\"light\">by</span></small> %s"
+
+#: ../src/rena-toolbar.c:156
+#, c-format
+msgid "%s <small><span weight=\"light\">in</span></small> %s"
+msgstr "%s <small><span weight=\"light\">in</span></small> %s"
+
+#: ../src/rena-toolbar.c:218
+msgid "Remove from Favorites"
+msgstr "Ahaztu faboritoetatik"
+
+#: ../src/rena-toolbar.c:218
+msgid "Add to Favorites"
+msgstr "Gutxigileak gehitu"
+
+#: ../src/rena-toolbar.c:855
+msgid "Previous Track"
+msgstr "Aurreko pista"
+
+#: ../src/rena-toolbar.c:859
+msgid "Play / Pause Track"
+msgstr "Jarrai ezazu / pausatu ibilbidea"
+
+#: ../src/rena-toolbar.c:863
+msgid "Stop playback"
+msgstr "Jarraialdia geldiarazi"
+
+#: ../src/rena-toolbar.c:867
+msgid "Next Track"
+msgstr "Aurrerako pista"
+
+#: ../src/rena-toolbar.c:878
+msgid "Leave Fullscreen"
+msgstr "Ikusgailu osoa itzali"
+
+#: ../src/rena-toolbar.c:885
+msgid "Play songs in a random order"
+msgstr "Jarri abestiak ausazko ordenean"
+
+#: ../src/rena-toolbar.c:888
+msgid "Repeat playback list at the end"
+msgstr "Errepikatu azken sekuentzia"
+
+#: ../src/rena-utils.c:493
+msgid "day"
+msgid_plural "days"
+msgstr[0] "egun bat"
+msgstr[1] "Egunak"
+
+#: ../src/rena-utils.c:796
+msgid "Unable to open the browser"
+msgstr "Ezin dut nabigatzailea ireki"
+
+#: ../src/rena-window.c:133
+#, c-format
+msgid ""
+"<b>Error playing current track.</b>\n"
+"(%s)\n"
+"<b>Reason:</b> %s"
+msgstr ""
+"<b>Akats bat gertatu da sarrerako erregistroan.</b>\n"
+"(%s)\n"
+"<b>arrazoia:</b> %s"
+
+
+#: ../src/rena-window.c:140
+msgid "_Stop"
+msgstr "Ezeztatu sarbidea"
+
+#: ../src/rena-window.c:141
+msgid "_Next"
+msgstr "Hurrengoa"
+
+#: ../src/rena.c:175
+msgid "Select a file to play"
+msgstr "Aukeratu fitxategi bat erreproduzitzeko"
+
+#: ../src/rena.c:222 ../plugins/lastfm/rena-lastfm-plugin.c:850
+msgid "Supported media"
+msgstr "Euskarri onartua"
+
+#: ../src/rena.c:308
+msgid "All files"
+msgstr "fitxategi guztiak"
+
+#: ../src/rena.c:384
+msgid "Enter the URL of an internet radio stream"
+msgstr "Sartu Interneteko irrati-fluxu baten URLa"
+
+#: ../src/rena.c:391
+msgid "Give it a name to save"
+msgstr "Izen bat eman gorde dezan"
+
+#: ../src/rena.c:404
+msgid "Add a location"
+msgstr "Kontzentrazioa gehitu"
+
+#. Setup application name and pulseaudio role
+#. Launch server
+#: ../src/rena.c:767 ../src/rena.c:1012 ../src/main.c:61
+#: ../data/io.github.santelmotechnologies.metainfo.xml.in.h:1
+#: ../plugins/dlna/rena-dlna-plugin.c:246
+msgid "Rena Music Player"
+msgstr ""
+
+#: ../src/rena-window.ui.h:15
+msgid "Show lateral _panel"
+msgstr "Alde bateko _panela erakutsi"
+
+#: ../src/rena-window.ui.h:16
+msgid "Show secondary lateral panel"
+msgstr "Erakutsi bigarren aldeko alboko panel bat"
+
+#: ../src/rena-window.ui.h:17
+msgid "Show menubar"
+msgstr "Erakutsi menu-lerroa"
+
+#: ../src/rena-window.ui.h:18
+msgid "Show status bar"
+msgstr "Erakutsi egoera barra"
+
+#: ../src/rena-window.ui.h:28
+msgid "_Expand library"
+msgstr "Liburutegia zabaltzea"
+
+#: ../src/rena-window.ui.h:29
+msgid "_Collapse library"
+msgstr "Kolapsoaren liburutegia"
+
+#: ../src/rena-window.ui.h:38
+#: ../plugins/song-info/rena-song-info-pane.c:471
+msgid "_Add to current playlist"
+msgstr "Jarri oraingo erreprodukzio zerrendan"
+
+#: ../src/rena-window.ui.h:39
+msgid "_Replace current playlist"
+msgstr "_Aurreko errepertorioa ordeztu"
+
+#: ../src/rena-window.ui.h:40
+msgid "Replace and _play"
+msgstr "Errepikatu eta jokatzeko"
+
+#: ../src/rena-window.ui.h:41
+msgid "Add and play"
+msgstr "Erakutsi eta erreproduzitu"
+
+#: ../src/rena-window.ui.h:43
+msgid "Delete"
+msgstr "Ezabatu"
+
+#: ../src/rena-window.ui.h:44
+msgid "_Remove library"
+msgstr "Liburutegia ezabatzen"
+
+#: ../src/rena-window.ui.h:46
+msgid "Move to _trash"
+msgstr "Zakarrontzira joan"
+
+#: ../src/rena-window.ui.h:47
+msgid "Delete from library"
+msgstr "Liburutegitik ezabatu"
+
+#: ../data/io.github.santelmotechnologies.metainfo.xml.in.h:2
+#: ../data/rena.desktop.in.h:2
+msgid "Manage and listen your music"
+msgstr "Erakutsi eta entzun zure musika"
+
+#: ../data/io.github.santelmotechnologies.metainfo.xml.in.h:3
+msgid ""
+"<p> Rena is a Lightweight Music Player for GNU/Linux, based on GTK3, "
+"SQLite, and completely written in C, constructed to be fast, light, and "
+"simultaneously tries to be complete without obstructing the daily work. "
+"Although it was especifically designed for the Xfce desktop, it integrates "
+"very well in other desktop environments. </p> <p>Features:</p> <ul> <li>Full "
+"integration with GTK3 support, but always completely independent of gnome or "
+"xfce</li> <li>Two panel desing inspired on Amarok 1.4. Library and current "
+"playlist</li> <li>Library with multiple views, according tags or folder "
+"structure</li> <li>Search, filtering and queue songs on current playlist</"
+"li> <li>Playing and edit tag of mp3, m4a, ogg, flac, asf, wma, and ape "
+"files. Of course you need codecs</li> <li>Playlist management. Exporting M3U "
+"and read M3U, PLS, XSPF and WAX playlists</li> <li>Play audio CDs and "
+"identifies this with CDDB</li> <li>Playback control with command line and "
+"MPRIS2</li> <li>Native desktop notifications with libnotify</li> </ul>"
+msgstr ""
+
+#: ../data/io.github.santelmotechnologies.metainfo.xml.in.h:4
+msgid "audio"
+msgstr ""
+
+#: ../data/io.github.santelmotechnologies.metainfo.xml.in.h:5
+msgid "multimedia"
+msgstr ""
+
+#: ../data/io.github.santelmotechnologies.metainfo.xml.in.h:6
+msgid "player"
+msgstr "Jokalari bat"
+
+#: ../data/rena.desktop.in.h:1
+msgid "Music Player"
+msgstr "Musika-sistemako erabiltzailea"
+
+#: ../data/rena.desktop.in.h:3
+msgid "audio;multimedia;player;"
+msgstr ""
+
+#: ../plugins/acoustid/rena-acoustid-plugin.c:104
+#: ../plugins/acoustid/rena-acoustid-plugin.c:451
+msgid "Search tags on AcoustID"
+msgstr "Eskaera etiketak AcoustID-n"
+
+#: ../plugins/acoustid/rena-acoustid-plugin.c:212
+#: ../plugins/acoustid/rena-acoustid-plugin.c:391
+msgid "There was an error when searching your tags on AcoustID"
+msgstr "Akats bat egon da zure etiketen bila AcoustIDean"
+
+#: ../plugins/acoustid/rena-acoustid-plugin.c:269
+msgid "AcoustID not found any similar song"
+msgstr "AcoustIDek ez du antzeko abestirik aurkitu"
+
+#: ../plugins/acoustid/rena-acoustid-plugin.c:373
+msgid "Searching tags on AcoustID"
+msgstr "Searching tags on AcoustID"
+
+#: ../plugins/ampache/rena-ampache-plugin.c:166
+#: ../plugins/ampache/rena-ampache-plugin.c:1449
+msgid "Refresh the Ampache library"
+msgstr "Ampache liburutegia berritzea"
+
+#: ../plugins/ampache/rena-ampache-plugin.c:238
+#: ../plugins/ampache/rena-ampache-plugin.c:240
+#: ../plugins/ampache/rena-ampache-plugin.c:1039
+#: ../plugins/ampache/rena-ampache-plugin.c:1041
+#: ../plugins/ampache/rena-ampache-plugin.c:1062
+msgid "Favorites on Ampache"
+msgstr "Ampache-ko gogokoenak"
+
+#: ../plugins/ampache/rena-ampache-plugin.c:708
+msgid "The server has no songs to play"
+msgstr "Zerbitzariak ez du abestirik jartzeko"
+
+#: ../plugins/ampache/rena-ampache-plugin.c:886
+#: ../plugins/koel/rena-koel-plugin.c:911
+msgid "Server"
+msgstr "Zerbitzaria"
+
+#: ../plugins/ampache/rena-ampache-plugin.c:898
+#: ../plugins/lastfm/rena-lastfm-plugin.c:1710
+#: ../plugins/koel/rena-koel-plugin.c:922
+msgid "Username"
+msgstr "Erabiltzaile-izena"
+
+#: ../plugins/ampache/rena-ampache-plugin.c:910
+#: ../plugins/lastfm/rena-lastfm-plugin.c:1717
+#: ../plugins/koel/rena-koel-plugin.c:934
+msgid "Password"
+msgstr "Hizkuntza"
+
+#: ../plugins/ampache/rena-ampache-plugin.c:1147
+msgid "Unable to establish conection with Ampache"
+msgstr "Ez da lortzen konexioa Ampache-rekin"
+
+#: ../plugins/cdrom/rena-cdrom-plugin.c:412
+#: ../plugins/cdrom/rena-cdrom-plugin.c:701
+msgid "Audio CD"
+msgstr "CD audioak"
+
+#: ../plugins/cdrom/rena-cdrom-plugin.c:535
+msgid "Audio/Data CD"
+msgstr "Audio/Datuen CDa"
+
+#: ../plugins/cdrom/rena-cdrom-plugin.c:536
+msgid "An audio CD was inserted"
+msgstr "CD bat txertatu da"
+
+#: ../plugins/cdrom/rena-cdrom-plugin.c:537
+#: ../plugins/cdrom/rena-cdrom-plugin.c:606
+#: ../plugins/cdrom/rena-cdrom-plugin.c:802
+#: ../plugins/cdrom/rena-cdrom-plugin.c:807
+msgid "Add Audio _CD"
+msgstr "Ozenezko CD bat gehitu"
+
+#: ../plugins/cdrom/rena-cdrom-plugin.c:703
+msgid "Audio CD Device"
+msgstr "CD audioaren gailua"
+
+#: ../plugins/cdrom/rena-cdrom-plugin.c:724
+msgid "Connect to CDDB server"
+msgstr "CDDB zerbitzariarekin konektatu"
+
+#: ../plugins/dlna-renderer/rena-dlna-renderer-plugin.c:90
+#: ../plugins/dlna-renderer/rena-dlna-renderer-plugin.c:220
+#: ../plugins/dlna-renderer/rena-dlna-renderer-plugin.c:225
+#: ../plugins/dlna-renderer/rena-dlna-renderer-plugin.c:289
+msgid "Search music on DLNA server"
+msgstr "Musika bilatu DLNA zerbitzarian"
+
+#: ../plugins/dlna-renderer/rena-dlna-renderer-plugin.c:219
+#, c-format
+msgid "Music of the %s server was added."
+msgstr "%s zerbitzariaren musika gehitu da"
+
+#: ../plugins/dlna-renderer/rena-dlna-renderer-plugin.c:225
+msgid "Could not find any DLNA server."
+msgstr "Ez da DLNA zerbitzaririk aurkitu"
+
+#: ../plugins/lastfm/rena-lastfm-plugin.c:177
+#: ../plugins/lastfm/rena-lastfm-plugin.c:1470
+#: ../plugins/lastfm/rena-lastfm-menu.ui.h:1
+msgid "_Lastfm"
+msgstr "_Lastfm"
+
+#: ../plugins/lastfm/rena-lastfm-plugin.c:178
+#: ../plugins/lastfm/rena-lastfm-plugin.c:842
+#: ../plugins/lastfm/rena-lastfm-menu.ui.h:4
+msgid "Import a XSPF playlist"
+msgstr "Importa ezazu XSPF erreprodukzio-zerrenda bat"
+
+#: ../plugins/lastfm/rena-lastfm-plugin.c:180
+#: ../plugins/lastfm/rena-lastfm-menu.ui.h:5
+msgid "Add favorites"
+msgstr "Gutunak gehitu"
+
+#: ../plugins/lastfm/rena-lastfm-plugin.c:182
+#: ../plugins/lastfm/rena-lastfm-plugin.c:209
+#: ../plugins/lastfm/rena-lastfm-menu.ui.h:6
+msgid "Add similar"
+msgstr "Antzekoa gehitu"
+
+#: ../plugins/lastfm/rena-lastfm-plugin.c:389
+msgid "Unable to establish conection with Last.fm"
+msgstr "Ez da posible Last.fm-rekin konexioa egitea"
+
+#: ../plugins/lastfm/rena-lastfm-plugin.c:578
+msgid "Last.fm suggested a tag correction"
+msgstr "Last.fm-ek etiketa bat zuzendu du"
+
+#: ../plugins/lastfm/rena-lastfm-plugin.c:605
+msgid "Love song on Last.fm failed."
+msgstr "Last.fm-eko maitasun abestiak huts egin du"
+
+#: ../plugins/lastfm/rena-lastfm-plugin.c:624
+msgid "Unlove song on Last.fm failed."
+msgstr "Last.fm-eko unlove abestiak huts egin du"
+
+#: ../plugins/lastfm/rena-lastfm-plugin.c:658
+#, c-format
+msgid "Added %d tracks of %d suggested from Last.fm"
+msgstr "%d abestiak gehitu dira %d Last.fm-tik iradokitakoak"
+
+#: ../plugins/lastfm/rena-lastfm-plugin.c:661
+#, c-format
+msgid "Last.fm doesn't suggest any similar track"
+msgstr "Last.fm-ek ez du antzeko abestirik iradokitzen"
+
+#: ../plugins/lastfm/rena-lastfm-plugin.c:665
+#, c-format
+msgid "Added %d songs of the last %d loved on Last.fm."
+msgstr "%d abestiak gehitu dira %d azken gustukoenak Last.fm-n"
+
+#: ../plugins/lastfm/rena-lastfm-plugin.c:668
+#, c-format
+msgid "You don't have favorite tracks on Last.fm"
+msgstr "Ez duzu Last.fm-ko abesti gogokoenik"
+
+#: ../plugins/lastfm/rena-lastfm-plugin.c:1099
+#: ../plugins/lastfm/rena-lastfm-plugin.c:1136
+msgid "Last.fm submission failed"
+msgstr "Last.fm aurkezpena huts egin du"
+
+#: ../plugins/lastfm/rena-lastfm-plugin.c:1138
+msgid "Track scrobbled on Last.fm"
+msgstr "Last.fm-n tracka hondatu egin da"
+
+#: ../plugins/lastfm/rena-lastfm-plugin.c:1266
+msgid "Update current song on Last.fm failed."
+msgstr "Last.fm-ko abestiak eguneratzen huts egin du"
+
+#: ../plugins/lastfm/rena-lastfm-plugin.c:1707
+msgid "Scrobble on Last.fm"
+msgstr "Last.fm-n eguneratzen da"
+
+#: ../plugins/mtp/rena-mtp-thread.c:208
+msgid "Unknown MTP device"
+msgstr "MTP gailu ezezaguna"
+
+#: ../plugins/mtp/rena-mtp-thread.c:461
+msgid "Music"
+msgstr "Musika jartzea"
+
+#: ../plugins/mpris2/rena-mpris2-plugin.c:856
+msgid "Tracks"
+msgstr "Ibilbideak"
+
+#: ../plugins/notify/rena-notify-plugin.c:165
+#, c-format
+msgid "by <b>%s</b> in <b>%s</b> <b>(%s)</b>"
+msgstr "by <b>%s</b> in <b>%s</b> <b>(%s)</b>"
+
+#: ../plugins/notify/rena-notify-plugin.c:267
+msgid "Notifications"
+msgstr "Oharrak"
+
+#: ../plugins/notify/rena-notify-plugin.c:269
+msgid "Show Album art in notifications"
+msgstr "Irakurri albuma irudiak jakinarazpenetan"
+
+#: ../plugins/notify/rena-notify-plugin.c:274
+msgid "Add actions to change track in notifications"
+msgstr "Oharretan ibilbidea aldatzeko ekintzak gehitu"
+
+#: ../plugins/koel/rena-koel-plugin.c:150
+#: ../plugins/koel/rena-koel-plugin.c:1277
+msgid "Refresh the Koel library"
+msgstr "Koel liburutegia berritzea"
+
+#: ../plugins/koel/rena-koel-plugin.c:534
+#: ../plugins/koel/rena-koel-plugin.c:778
+#: ../plugins/koel/rena-koel-plugin.c:798
+msgid "Favorites on Koel"
+msgstr "Koelko gogokoenak"
+
+#: ../plugins/koel/rena-koel-plugin.c:551
+msgid "Koel"
+msgstr "Koel"
+
+#: ../plugins/koel/rena-koel-plugin.c:552
+msgid "Import finished"
+msgstr "Importazioa burutu da"
+
+#: ../plugins/koel/rena-koel-plugin.c:1004
+msgid "Unable to establish conection with Koel"
+msgstr "Ez da Koel-ekin konexiorik ezarri"
+
+#: ../plugins/removable-media/rena-devices-removable.c:225
+#, c-format
+msgid "Unable to accesss to “%s” device"
+msgstr "Ezin da %s gailuan sartu"
+
+#: ../plugins/removable-media/rena-devices-removable.c:229
+#: ../plugins/removable-media/rena-devices-removable.c:315
+msgid "Removable Device"
+msgstr "Atera daitekeen gailua"
+
+#: ../plugins/removable-media/rena-devices-removable.c:311
+#, c-format
+msgid "Do you want to manage the “%s” device with Rena?"
+msgstr "%s gailua Rena-rekin kudeatu nahi duzu?"
+
+#: ../plugins/removable-media/rena-devices-removable.c:316
+msgid "An removable device was detected"
+msgstr "Atera daitekeen gailu bat detektatu da"
+
+#: ../plugins/removable-media/rena-devices-removable.c:317
+msgid "Manage device"
+msgstr "Gailuaren kudeaketa"
+
+#: ../plugins/song-info/rena-song-info-pane.c:175
+msgid "Thanks to "
+msgstr "Mila esker gonbidatzeagatik"
+
+#: ../plugins/song-info/rena-song-info-pane.c:377
+#: ../plugins/song-info/rena-song-info-thread-dialog.c:59
+#: ../plugins/song-info/rena-song-info-thread-dialog.c:86
+#: ../plugins/song-info/rena-song-info.ui.h:1
+#, c-format
+msgid "Artist info"
+msgstr "Artista baten informazioa"
+
+#: ../plugins/song-info/rena-song-info-pane.c:390
+#: ../plugins/song-info/rena-song-info-pane.c:453
+#: ../plugins/song-info/rena-song-info-pane.c:517
+#: ../plugins/song-info/rena-song-info-thread-dialog.c:82
+#: ../plugins/song-info/rena-song-info.ui.h:2
+msgid "Lyrics"
+msgstr "Kantuak dira"
+
+#: ../plugins/song-info/rena-song-info-pane.c:403
+#: ../plugins/song-info/rena-song-info.ui.h:3
+msgid "Similar songs"
+msgstr "Antzeko abestiak"
+
+#: ../plugins/song-info/rena-song-info-plugin.c:90
+msgid "Search _lyric"
+msgstr "Bilatu bertsoak"
+
+#: ../plugins/song-info/rena-song-info-plugin.c:92
+msgid "Search _artist info"
+msgstr "Saiatu artistaren informazioa"
+
+#: ../plugins/song-info/rena-song-info-plugin.c:558
+msgid "Song Information"
+msgstr "Kantuari buruzko informazioa"
+
+#: ../plugins/song-info/rena-song-info-plugin.c:560
+msgid "Download the album art while playing their songs."
+msgstr "Kantuak jotzen ari den bitartean deskargatu"
+
+#: ../plugins/song-info/rena-song-info-plugin.c:564
+msgid "Proxy"
+msgstr "Ordezkoa"
+
+#: ../plugins/song-info/rena-song-info-thread-dialog.c:52
+#, c-format
+msgid "Lyrics thanks to %s"
+msgstr "%s-k idatzitako hitzak"
+
+#: ../plugins/song-info/rena-song-info-thread-dialog.c:60
+#, c-format
+msgid "%s <small><span weight=\"light\">thanks to</span></small> %s"
+msgstr "%s <small><span weight=\"light\">pisu txikia</span></small> %s"
+
+#: ../plugins/song-info/rena-song-info-thread-dialog.c:82
+#: ../plugins/song-info/rena-song-info-thread-pane.c:178
+msgid "Lyrics not found."
+msgstr "Ez da hitzik aurkitu"
+
+#: ../plugins/song-info/rena-song-info-thread-dialog.c:86
+#: ../plugins/song-info/rena-song-info-thread-pane.c:183
+msgid "Artist information not found."
+msgstr "Ikuskatzailea falta da"
+
+#: ../plugins/song-info/rena-song-info-thread-pane.c:188
+msgid "No recommended songs."
+msgstr "Ez dago abesti gomendaturik"
+
+#: ../plugins/song-info/rena-song-info-thread-pane.c:272
+#: ../plugins/song-info/rena-song-info-thread-pane.c:281
+#: ../plugins/song-info/rena-song-info-thread-pane.c:289
+msgid "Searching..."
+msgstr "Bilatzen ari da"
+
+#: ../plugins/tunein/rena-tunein-plugin.c:98
+#: ../plugins/tunein/rena-tunein-plugin.c:327
+msgid "Search radio on TuneIn"
+msgstr "Bilatu irratia TuneIn-en"
+
+#: ../plugins/tunein/rena-tunein-plugin.c:151
+#: ../plugins/tunein/rena-tunein-plugin.c:175
+msgid "There was an error when searching radio on TuneIn"
+msgstr "Akats bat gertatu da TuneIn irratian bilatzean"
+
+#: ../plugins/tunein/rena-tunein-plugin.c:165
+msgid "Radio was not found"
+msgstr "Irratia ez da aurkitu"
+
+#: ../plugins/tunein/rena-tunein-plugin.c:209
+msgid "Searching radio on TuneIn"
+msgstr "Irratia bilatzen ari da TuneIn-en"
+
+#: ../plugins/tunein/rena-tunein-plugin.c:265
+#: ../plugins/tunein/rena-tunein-plugin.c:276
+msgid "Search in TuneIn"
+msgstr "TuneIn-en bilaketa"
+
+#: ../plugins/visualizer/rena-visualizer-plugin.c:78
+msgid "_Visualizer"
+msgstr "_Bisitarioa"
+
+#: ../plugins/visualizer/rena-visualizer-plugin.c:155
+msgid "Show Visualizer"
+msgstr "Ikusgailuak erakusten"
+
+#: ../plugins/lastfm/rena-lastfm-menu.ui.h:2
+msgid "Love track"
+msgstr "Maitasun pista"
+
+#: ../plugins/lastfm/rena-lastfm-menu.ui.h:3
+msgid "Unlove track"
+msgstr "Begirunerik gabeko pista"

@@ -1,0 +1,1501 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Santelmo Technologies <santelmotechnologies@gmail.com>, 2024.
+#
+# Translators:
+# Santelmo Technologies . <santelmotechnologies@gmail.com>, 2024
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-13 19:32-0300\n"
+"PO-Revision-Date: 2024-02-12 20:18+0000\n"
+"Last-Translator: Emir A. Ebreo <emir.ebreo@gmail.com>\n"
+"Language-Team: Bengali INDIA (https://github.com/santelmotechnologies/sirena/blob/main/po/bn.po)\n"
+"Language: bn_IN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#. Create root container
+#: ../src/info-bar-import-music.c:55 ../plugins/dlna/rena-dlna-plugin.c:235
+msgid "Local Music"
+msgstr "স্থানীয় সঙ্গীত"
+
+#. GtkInfoBar has undocumented behavior for GTK_RESPONSE_CANCEL
+#: ../src/info-bar-import-music.c:77 ../src/info-bar-import-music.c:124
+#: ../src/info-bar-import-music.c:167
+msgid "_No"
+msgstr "না"
+
+#: ../src/info-bar-import-music.c:78 ../src/info-bar-import-music.c:125
+#: ../src/info-bar-import-music.c:168
+msgid "_Yes"
+msgstr "হ্যাঁ"
+
+#: ../src/info-bar-import-music.c:80
+#, c-format
+msgid "Would you like to import %s to library?"
+msgstr "আপনি কি লাইব্রেরিতে %s আমদানি করতে চান?"
+
+#: ../src/info-bar-import-music.c:127
+msgid "Would you like to update your music library?"
+msgstr "আপনি কি আপনার সঙ্গীত লাইব্রেরি আপডেট করতে চান?"
+
+#: ../src/info-bar-import-music.c:170
+msgid "Some changes need restart rena."
+msgstr "কিছু পরিবর্তন Rena পুনরায় আরম্ভ করা প্রয়োজন."
+
+#: ../src/rena-background-task-bar.c:82
+#: ../src/rena-background-task-bar.c:125
+msgid "There are background tasks working"
+msgstr "ব্যাকগ্রাউন্ড টাস্ক কাজ আছে"
+
+#: ../src/rena-device-client.c:113
+msgid "Ignore"
+msgstr "উপেক্ষা করুন"
+
+#: ../src/rena-cmdline.c:192
+msgid "FILENAME"
+msgstr "FILENAME"
+
+#: ../src/rena-cmdline.c:251
+msgid "Use --help to see a full list of available command line options."
+msgstr "উপলব্ধ কমান্ড লাইন বিকল্পগুলির একটি সম্পূর্ণ তালিকা দেখতে --help ব্যবহার করুন।"
+
+#: ../src/rena-equalizer-dialog.c:50
+msgid "Disabled"
+msgstr "অক্ষম"
+
+#: ../src/rena-equalizer-dialog.c:51
+msgid "Classical"
+msgstr "ক্লাসিক্যাল"
+
+#: ../src/rena-equalizer-dialog.c:52
+msgid "Club"
+msgstr "ক্লাব"
+
+#: ../src/rena-equalizer-dialog.c:53
+msgid "Dance"
+msgstr "নাচ"
+
+#: ../src/rena-equalizer-dialog.c:54
+msgid "Full Bass"
+msgstr "ফুল বাস"
+
+#: ../src/rena-equalizer-dialog.c:55
+msgid "Full Bass and Treble"
+msgstr "ফুল ব্যাস এবং ট্রেবল"
+
+#: ../src/rena-equalizer-dialog.c:56
+msgid "Full Treble"
+msgstr "সম্পূর্ণ ট্রেবল"
+
+#: ../src/rena-equalizer-dialog.c:57
+msgid "Laptop Speakers and Headphones"
+msgstr "ল্যাপটপ স্পিকার এবং হেডফোন"
+
+#: ../src/rena-equalizer-dialog.c:58
+msgid "Large Hall"
+msgstr "বড় হল"
+
+#: ../src/rena-equalizer-dialog.c:59
+msgid "Live"
+msgstr "লাইভ দেখান"
+
+#: ../src/rena-equalizer-dialog.c:60
+msgid "Party"
+msgstr "পার্টি"
+
+#: ../src/rena-equalizer-dialog.c:61
+msgid "Pop"
+msgstr "পপ"
+
+#: ../src/rena-equalizer-dialog.c:62
+msgid "Reggae"
+msgstr "রেগে"
+
+#: ../src/rena-equalizer-dialog.c:63
+msgid "Rock"
+msgstr ""
+
+#: ../src/rena-equalizer-dialog.c:64
+msgid "Ska"
+msgstr "স্কা"
+
+#: ../src/rena-equalizer-dialog.c:65
+msgid "Smiley Face Curve"
+msgstr "স্মাইলি ফেস কার্ভ"
+
+#: ../src/rena-equalizer-dialog.c:66
+msgid "Soft"
+msgstr "নরম"
+
+#: ../src/rena-equalizer-dialog.c:67
+msgid "Soft Rock"
+msgstr "নরম শিলা"
+
+#: ../src/rena-equalizer-dialog.c:68
+msgid "Techno"
+msgstr "টেকনো"
+
+#: ../src/rena-equalizer-dialog.c:69
+msgid "Custom"
+msgstr "কাস্টম"
+
+#: ../src/rena-equalizer-dialog.c:423
+msgid "Equalizer"
+msgstr "ইকুয়ালাইজার"
+
+#: ../src/rena-favorites.c:110 ../src/rena-favorites.c:120
+#: ../src/rena-favorites.c:130 ../src/rena-favorites.c:132
+#: ../src/rena-library-pane.c:1197 ../src/rena-playlists-mgmt.c:1378
+#: ../src/rena-playlists-mgmt.c:1415 ../src/rena.c:1106
+#: ../src/rena.c:1108 ../plugins/koel/rena-koel-plugin.c:535
+msgid "Favorites"
+msgstr "প্রিয়"
+
+#: ../src/rena-filter-dialog.c:218 ../src/rena-library-pane.c:626
+#: ../src/rena-tags-dialog.c:114 ../plugins/mtp/rena-mtp-thread.c:471
+#: ../plugins/notify/rena-notify-plugin.c:166
+msgid "Unknown Artist"
+msgstr "অজানা শিল্পী"
+
+#: ../src/rena-filter-dialog.c:219 ../src/rena-library-pane.c:633
+#: ../src/rena-library-pane.c:638 ../src/rena-tags-dialog.c:115
+#: ../plugins/mtp/rena-mtp-thread.c:480
+#: ../plugins/notify/rena-notify-plugin.c:167
+msgid "Unknown Album"
+msgstr "অজানা অ্যালবাম"
+
+#. The search dialog
+#: ../src/rena-filter-dialog.c:368
+msgid "Search in playlist"
+msgstr "প্লেলিস্টে অনুসন্ধান করুন"
+
+#: ../src/rena-filter-dialog.c:371
+msgid "_Close"
+msgstr "বন্ধ (_C)"
+
+#: ../src/rena-filter-dialog.c:374 ../src/rena-playlist.c:210
+msgid "Add to playback queue"
+msgstr "প্লেব্যাক সারিতে যোগ করুন"
+
+#: ../src/rena-filter-dialog.c:375
+msgid "_Jump to"
+msgstr "লাফ দাও (_J)"
+
+#: ../src/rena-library-pane.c:141
+msgid "_Skip"
+msgstr "এড়িয়ে যান (_S)"
+
+#: ../src/rena-library-pane.c:142
+msgid "S_kip All"
+msgstr "সব বাদ (_k)"
+
+#: ../src/rena-library-pane.c:143
+msgid "Delete _All"
+msgstr "সব মুছে ফেলুন (_A)"
+
+#: ../src/rena-library-pane.c:631 ../src/rena-tags-dialog.c:105
+msgid "Unknown"
+msgstr "অজানা"
+
+#: ../src/rena-library-pane.c:643
+msgid "Unknown Genre"
+msgstr "অজানা জেনার"
+
+#: ../src/rena-library-pane.c:971
+msgid "File can't be moved to trash. Delete permanently?"
+msgstr "ফাইল ট্র্যাশে সরানো যাবে না। চিরতরে মুছে দাও?"
+
+#: ../src/rena-library-pane.c:972
+#, c-format
+msgid "The file \"%s\" cannot be moved to the trash. Details: %s"
+msgstr "\"%s\" ফাইলটি ট্র্যাশে সরানো যাবে না। বিশদ বিবরণ: %s"
+
+#: ../src/rena-library-pane.c:980 ../src/rena-playlists-mgmt.c:86
+#: ../src/rena-playlists-mgmt.c:518 ../src/rena-playlists-mgmt.c:590
+#: ../src/rena-playlists-mgmt.c:1270 ../src/rena-preferences-dialog.c:703
+#: ../src/rena-preferences-dialog.c:1354 ../src/rena-tags-dialog.c:149
+#: ../src/rena.c:208 ../src/rena.c:407
+#: ../plugins/lastfm/rena-lastfm-plugin.c:845
+#: ../plugins/tunein/rena-tunein-plugin.c:268
+msgid "_Cancel"
+msgstr "বাতিল করুন (_C)"
+
+#: ../src/rena-library-pane.c:986
+msgid "_Delete"
+msgstr "মুছে ফেলা (_D)"
+
+#: ../src/rena-library-pane.c:1817 ../src/rena-window.ui.h:30
+msgid "Folders structure"
+msgstr "ফোল্ডার গঠন"
+
+#: ../src/rena-library-pane.c:1826 ../src/rena-playlist.c:115
+#: ../src/rena-playlist.c:3503 ../src/rena-statusicon.c:222
+#: ../src/rena-tags-dialog.c:168 ../src/rena-tags-dialog.c:1104
+#: ../src/rena-window.ui.h:31
+msgid "Artist"
+msgstr "শিল্পী"
+
+#: ../src/rena-library-pane.c:1835 ../src/rena-playlist.c:116
+#: ../src/rena-playlist.c:3504 ../src/rena-statusicon.c:223
+#: ../src/rena-tags-dialog.c:169 ../src/rena-tags-dialog.c:1109
+#: ../src/rena-window.ui.h:32
+msgid "Album"
+msgstr "অ্যালবাম"
+
+#: ../src/rena-library-pane.c:1844 ../src/rena-playlist.c:117
+#: ../src/rena-playlist.c:3505 ../src/rena-tags-dialog.c:170
+#: ../src/rena-tags-dialog.c:1114 ../src/rena-window.ui.h:33
+msgid "Genre"
+msgstr "ধারা"
+
+#: ../src/rena-library-pane.c:1856 ../src/rena-window.ui.h:34
+msgid "Artist / Album"
+msgstr "শিল্পী/অ্যালবাম"
+
+#: ../src/rena-library-pane.c:1868 ../src/rena-window.ui.h:36
+msgid "Genre / Artist"
+msgstr "ধরণ/শিল্পী"
+
+#: ../src/rena-library-pane.c:1880 ../src/rena-window.ui.h:35
+msgid "Genre / Album"
+msgstr "জেনার/অ্যালবাম"
+
+#: ../src/rena-library-pane.c:1895 ../src/rena-window.ui.h:37
+msgid "Genre / Artist / Album"
+msgstr "ধরণ/শিল্পী/অ্যালবাম"
+
+#: ../src/rena-library-pane.c:2123 ../src/rena-library-pane.c:2237
+#: ../src/rena-playlists-mgmt.c:619 ../src/rena-playlists-mgmt.c:646
+#: ../src/rena.c:305
+msgid "Playlists"
+msgstr "প্লেলিস্ট"
+
+#: ../src/rena-library-pane.c:2139 ../src/rena-library-pane.c:2246
+msgid "Radios"
+msgstr "রেডিও"
+
+#: ../src/rena-library-pane.c:2678
+msgid "Really want to move the files to trash?"
+msgstr "সত্যিই ট্র্যাশে ফাইল সরাতে চান?"
+
+#: ../src/rena-library-pane.c:2680
+msgid "Delete permanently instead of moving to trash"
+msgstr "ট্র্যাশে সরানোর পরিবর্তে স্থায়ীভাবে মুছুন"
+
+#: ../src/rena-library-pane.c:2734
+msgid ""
+"Are you sure you want to delete current file from library?\n"
+"আপনি কি লাইব্রেরি থেকে বর্তমান ফাইল মুছে ফেলার বিষয়ে নিশ্চিত?\n"
+"Warning: To recover we must rescan the entire library."
+msgstr "সতর্কতা: পুনরুদ্ধার করতে আমাদের অবশ্যই পুরো লাইব্রেরিটি পুনরায় স্ক্যান করতে হবে।"
+
+#: ../src/rena-menubar.c:193
+msgid "_Playback"
+msgstr "প্লেব্যাক (_P)"
+
+#: ../src/rena-menubar.c:194
+msgid "Play_list"
+msgstr "প্লেলিস্ট (_l)"
+
+#: ../src/rena-menubar.c:195
+msgid "_View"
+msgstr "দেখুন (_V)"
+
+#: ../src/rena-menubar.c:196 ../src/rena-playlist.c:223
+msgid "_Tools"
+msgstr "টুলস (_T)"
+
+#: ../src/rena-menubar.c:197
+msgid "_Help"
+msgstr "সাহায্য (_H)"
+
+#: ../src/rena-menubar.c:198 ../src/rena-window.ui.h:24
+#: ../plugins/notify/rena-notify-plugin.c:177
+msgid "Previous track"
+msgstr "পূর্ববর্তী ট্র্যাক"
+
+#: ../src/rena-menubar.c:200 ../src/rena-window.ui.h:25
+msgid "Play / Pause"
+msgstr "খেলার বিরতি"
+
+#: ../src/rena-menubar.c:202 ../src/rena-window.ui.h:26
+msgid "Stop"
+msgstr "থামো"
+
+#: ../src/rena-menubar.c:204 ../src/rena-window.ui.h:27
+#: ../plugins/notify/rena-notify-plugin.c:181
+msgid "Next track"
+msgstr "পরবর্তী ট্র্যাক"
+
+#: ../src/rena-menubar.c:206 ../src/rena-playlist.c:226
+#: ../src/rena-window.ui.h:4
+msgid "Edit track information"
+msgstr "ট্র্যাক তথ্য সম্পাদনা করুন"
+
+#: ../src/rena-menubar.c:208 ../src/rena-window.ui.h:23
+msgid "_Quit"
+msgstr "প্রস্থান করুন (_Q)"
+
+#: ../src/rena-menubar.c:210 ../src/rena-window.ui.h:1
+msgid "_Add files"
+msgstr "ফাইল যোগ করুন (_A)"
+
+#: ../src/rena-menubar.c:211
+msgid "Open a media file"
+msgstr "একটি মিডিয়া ফাইল খুলুন"
+
+#: ../src/rena-menubar.c:212 ../src/rena-window.ui.h:2
+msgid "Add _location"
+msgstr "অবস্থান যোগ করুন (_l)"
+
+#: ../src/rena-menubar.c:214 ../src/rena-window.ui.h:3
+msgid "_Add the library"
+msgstr "লাইব্রেরি যোগ করুন (_A)"
+
+#: ../src/rena-menubar.c:216 ../src/rena-window.ui.h:6
+msgid "Remove selection from playlist"
+msgstr "প্লেলিস্ট থেকে নির্বাচন সরান"
+
+#: ../src/rena-menubar.c:218 ../src/rena-playlist.c:216
+#: ../src/rena-window.ui.h:7
+msgid "Crop playlist"
+msgstr "ক্রপ প্লেলিস্ট"
+
+#: ../src/rena-menubar.c:220 ../src/rena-playlist.c:218
+#: ../src/rena-window.ui.h:8
+msgid "Clear playlist"
+msgstr "প্লেলিস্ট সাফ করুন"
+
+#: ../src/rena-menubar.c:222 ../src/rena-playlist.c:220
+#: ../src/rena-playlists-mgmt.c:70 ../src/rena-playlists-mgmt.c:93
+#: ../src/rena-playlists-mgmt.c:1275 ../src/rena-window.ui.h:9
+msgid "Save playlist"
+msgstr "প্লেলিস্ট সংরক্ষণ করুন"
+
+#: ../src/rena-menubar.c:223 ../src/rena-menubar.c:228
+#: ../src/rena-playlists-mgmt.c:1364 ../src/rena-playlists-mgmt.c:1401
+#: ../src/rena-window.ui.h:10
+msgid "New playlist"
+msgstr "নতুন তালিকা"
+
+#: ../src/rena-menubar.c:225 ../src/rena-menubar.c:230
+#: ../src/rena-playlists-mgmt.c:1368 ../src/rena-playlists-mgmt.c:1405
+#: ../src/rena-window.ui.h:11
+msgid "Export"
+msgstr "রপ্তানি"
+
+#: ../src/rena-menubar.c:227 ../src/rena-playlist.c:221
+#: ../src/rena-playlists-mgmt.c:72 ../src/rena-playlists-mgmt.c:95
+#: ../src/rena-playlists-mgmt.c:1277 ../src/rena-window.ui.h:12
+msgid "Save selection"
+msgstr "নির্বাচন সংরক্ষণ করুন"
+
+#: ../src/rena-menubar.c:232 ../src/rena-window.ui.h:13
+msgid "_Search in playlist"
+msgstr "প্লেলিস্টে অনুসন্ধান করুন (_S)"
+
+#: ../src/rena-menubar.c:234 ../src/rena-window.ui.h:21
+msgid "_Preferences"
+msgstr "পছন্দসমূহ (_P)"
+
+#: ../src/rena-menubar.c:236 ../src/rena-window.ui.h:14
+msgid "Jump to playing song"
+msgstr "গান বাজানো ঝাঁপ দাও"
+
+#: ../src/rena-menubar.c:238 ../src/rena-window.ui.h:5
+msgid "E_qualizer"
+msgstr "ইকুয়ালাইজার (_q)"
+
+#: ../src/rena-menubar.c:240 ../src/rena-window.ui.h:19
+msgid "_Rescan library"
+msgstr "লাইব্রেরি রিস্ক্যান করুন (_R)"
+
+#: ../src/rena-menubar.c:242 ../src/rena-window.ui.h:20
+msgid "_Update library"
+msgstr "লাইব্রেরি আপডেট করুন (_U)"
+
+#: ../src/rena-menubar.c:244
+msgid "_Statistics"
+msgstr "পরিসংখ্যান (_S)"
+
+#: ../src/rena-menubar.c:246
+msgid "Homepage"
+msgstr "হোমপেজ"
+
+#: ../src/rena-menubar.c:248
+msgid "Community"
+msgstr "সম্প্রদায়"
+
+#: ../src/rena-menubar.c:250
+msgid "Wiki"
+msgstr "উইকি"
+
+#: ../src/rena-menubar.c:252
+msgid "Translate Rena"
+msgstr "Rena অনুবাদ করুন"
+
+#: ../src/rena-menubar.c:254 ../src/rena-window.ui.h:22
+msgid "About"
+msgstr "সম্পর্কিত"
+
+#: ../src/rena-menubar.c:259
+msgid "_Shuffle"
+msgstr "অদলবদল (_S)"
+
+#: ../src/rena-menubar.c:262
+msgid "_Repeat"
+msgstr "পুনরাবৃত্তি করুন (_R)"
+
+#: ../src/rena-menubar.c:265
+msgid "_Fullscreen"
+msgstr "পূর্ণ পর্দা (_F)"
+
+#: ../src/rena-menubar.c:268
+msgid "Lateral _panel"
+msgstr "পার্শ্বীয় প্যানেল (_p)"
+
+#: ../src/rena-menubar.c:271
+msgid "Secondary lateral panel"
+msgstr "মাধ্যমিক পার্শ্বীয় প্যানেল"
+
+#: ../src/rena-menubar.c:274
+msgid "Playback controls below"
+msgstr "নীচে প্লেব্যাক নিয়ন্ত্রণ"
+
+#: ../src/rena-menubar.c:277
+msgid "Menubar"
+msgstr "নীচের মেনুবার নিয়ন্ত্রণ"
+
+#: ../src/rena-menubar.c:638
+msgid "Total Tracks:"
+msgstr "মোট ট্র্যাক:"
+
+#: ../src/rena-menubar.c:640
+msgid "Total Artists:"
+msgstr "মোট শিল্পী:"
+
+#: ../src/rena-menubar.c:642
+msgid "Total Albums:"
+msgstr "মোট অ্যালবাম:"
+
+#: ../src/rena-menubar.c:645
+msgid "Statistics"
+msgstr "পরিসংখ্যান"
+
+#. Create labels
+#: ../src/rena-playlist.c:114 ../src/rena-playlist.c:3502
+#: ../src/rena-statusicon.c:221 ../src/rena-tags-dialog.c:167
+#: ../src/rena-tags-dialog.c:1099
+msgid "Title"
+msgstr "শিরোনাম"
+
+#: ../src/rena-playlist.c:118 ../src/rena-playlist.c:3506
+#: ../src/rena-tags-dialog.c:690
+msgid "Bitrate"
+msgstr "বিটরেট"
+
+#: ../src/rena-playlist.c:119 ../src/rena-playlist.c:3507
+#: ../src/rena-tags-dialog.c:172
+msgid "Year"
+msgstr "বছর"
+
+#: ../src/rena-playlist.c:120 ../src/rena-playlist.c:3508
+#: ../src/rena-tags-dialog.c:173 ../src/rena-tags-dialog.c:1119
+msgid "Comment"
+msgstr "মন্তব্য করুন"
+
+#. Create labels
+#: ../src/rena-playlist.c:121 ../src/rena-playlist.c:3509
+#: ../src/rena-statusicon.c:224 ../src/rena-tags-dialog.c:689
+msgid "Length"
+msgstr "দৈর্ঘ্য"
+
+#: ../src/rena-playlist.c:122 ../src/rena-playlist.c:3510
+#: ../src/rena-tags-dialog.c:694
+msgid "Filename"
+msgstr "Filename"
+
+#: ../src/rena-playlist.c:123 ../src/rena-playlist.c:3511
+#: ../src/rena-tags-dialog.c:695
+msgid "Mimetype"
+msgstr "Mimetype"
+
+#: ../src/rena-playlist.c:212
+msgid "Remove from playback queue"
+msgstr "প্লেব্যাক সারি থেকে সরান"
+
+#: ../src/rena-playlist.c:214
+msgid "Remove from playlist"
+msgstr "প্লেলিস্ট থেকে সরান"
+
+#: ../src/rena-playlist.c:222
+msgid "_Send to"
+msgstr "পাঠানো (_S)"
+
+#: ../src/rena-playlist.c:2535
+#, c-format
+msgid "Copy \"%i\" to selected track numbers"
+msgstr "নির্বাচিত ট্র্যাক নম্বরগুলিতে \"%i\" অনুলিপি করুন"
+
+#: ../src/rena-playlist.c:2541
+#, c-format
+msgid "Copy \"%s\" to selected titles"
+msgstr "নির্বাচিত শিরোনামে \"%s\" কপি করুন"
+
+#: ../src/rena-playlist.c:2547
+#, c-format
+msgid "Copy \"%s\" to selected artists"
+msgstr "নির্বাচিত শিল্পীদের \"%s\" কপি করুন"
+
+#: ../src/rena-playlist.c:2553
+#, c-format
+msgid "Copy \"%s\" to selected albums"
+msgstr "নির্বাচিত অ্যালবামে \"%s\" কপি করুন"
+
+#: ../src/rena-playlist.c:2559
+#, c-format
+msgid "Copy \"%s\" to selected genres"
+msgstr "নির্বাচিত জেনারে \"%s\" কপি করুন"
+
+#: ../src/rena-playlist.c:2565
+#, c-format
+msgid "Copy \"%i\" to selected years"
+msgstr "নির্বাচিত বছরে \"%i\" কপি করুন"
+
+#: ../src/rena-playlist.c:2571
+#, c-format
+msgid "Copy \"%s\" to selected comments"
+msgstr "নির্বাচিত মন্তব্যে \"%s\" কপি করুন"
+
+#. Create the checkmenu items
+#: ../src/rena-playlist.c:3501 ../src/rena.c:637
+msgid "Track"
+msgid_plural "Tracks"
+msgstr[0] "ট্র্যাক"
+msgstr[1] "ট্র্যাক"
+
+#: ../src/rena-playlist.c:3514
+msgid "Clear sort"
+msgstr "পরিষ্কার বাছাই"
+
+#: ../src/rena-playlists-mgmt.c:74
+msgid "Playlist"
+msgstr "প্লেলিস্ট"
+
+#: ../src/rena-playlists-mgmt.c:87 ../src/rena-playlists-mgmt.c:519
+#: ../src/rena-playlists-mgmt.c:1271 ../src/rena-preferences-dialog.c:1355
+#: ../src/rena-tags-dialog.c:150 ../src/rena-tags-dialog.c:789
+#: ../src/rena.c:408 ../plugins/song-info/rena-song-info-dialog.c:84
+#: ../plugins/tunein/rena-tunein-plugin.c:269
+msgid "_Ok"
+msgstr "ঠিক আছে (_O)"
+
+#: ../src/rena-playlists-mgmt.c:130
+msgid "<b>con_playlist</b> is a reserved playlist name"
+msgstr "<b>con_playlist</b> একটি সংরক্ষিত প্লেলিস্ট নাম"
+
+#: ../src/rena-playlists-mgmt.c:154
+#, c-format
+msgid "Do you want to overwrite the playlist: %s ?"
+msgstr "আপনি কি প্লেলিস্টটি ওভাররাইট করতে চান: %s ?"
+
+#: ../src/rena-playlists-mgmt.c:508
+msgid "Choose a new name"
+msgstr "একটি নতুন নাম চয়ন করুন"
+
+#: ../src/rena-playlists-mgmt.c:515 ../src/rena-window.ui.h:42
+msgid "Rename"
+msgstr "নাম পরিবর্তন করুন"
+
+#: ../src/rena-playlists-mgmt.c:557
+#, c-format
+msgid "Do you want to delete the item: %s ?"
+msgstr "আপনি কি আইটেমটি মুছতে চান: %s ?"
+
+#: ../src/rena-playlists-mgmt.c:587
+msgid "Export playlist to file"
+msgstr "ফাইলে প্লেলিস্ট রপ্তানি করুন"
+
+#: ../src/rena-playlists-mgmt.c:591
+msgid "_Save"
+msgstr "সংরক্ষণ (_S)"
+
+#: ../src/rena-playlists-mgmt.c:1036
+#: ../plugins/lastfm/rena-lastfm-plugin.c:818
+#, c-format
+msgid "Added %d songs from %d of the imported playlist."
+msgstr "আমদানি করা প্লেলিস্টের %d টি থেকে  %d টি গান যোগ করা হয়েছে৷"
+
+#: ../src/rena-playlists-mgmt.c:1255
+msgid "What do you want to do?"
+msgstr "আপনি কি করতে চান?"
+
+#: ../src/rena-playlists-mgmt.c:1257
+#, c-format
+msgid "Replace the playlist \"%s\""
+msgstr "প্লেলিস্ট  \"%s\" প্রতিস্থাপন করুন"
+
+#: ../src/rena-playlists-mgmt.c:1262
+#, c-format
+msgid "Add to playlist \"%s\""
+msgstr "প্লেলিস্ট  \"%s\" এ যোগ করুন"
+
+#: ../src/rena-preferences-dialog.c:204
+msgid ""
+"Patterns should be of the form:<filename>;<filename>;....\n"
+"A maximum of six patterns are allowed.\n"
+"Wildcards are not accepted as of now ( patches welcome :-) )."
+msgstr ""
+"নিদর্শন ফর্ম হতে হবে:<filename>;<filename>;....\n"
+"সর্বোচ্চ ছয়টি প্যাটার্ন অনুমোদিত।.\n"
+"এখন পর্যন্ত ওয়াইল্ডকার্ড গ্রহণ করা হয় না (প্যাচ স্বাগত :-) )"
+
+#: ../src/rena-preferences-dialog.c:227
+msgid "Album art pattern"
+msgstr "অ্যালবাম আর্ট প্যাটার্ন"
+
+#: ../src/rena-preferences-dialog.c:545
+#: ../src/rena-preferences-dialog.c:1205
+msgid "Start normal"
+msgstr "স্বাভাবিক শুরু করুন"
+
+#: ../src/rena-preferences-dialog.c:549
+#: ../src/rena-preferences-dialog.c:1206
+msgid "Start fullscreen"
+msgstr "ফুলস্ক্রিন শুরু করুন"
+
+#: ../src/rena-preferences-dialog.c:553
+#: ../src/rena-preferences-dialog.c:1207
+msgid "Start in system tray"
+msgstr "সিস্টেম ট্রেতে শুরু করুন"
+
+#. Create a folder chooser dialog
+#: ../src/rena-preferences-dialog.c:700
+msgid "Select a folder to add to library"
+msgstr "লাইব্রেরিতে যোগ করার জন্য একটি ফোল্ডার নির্বাচন করুন"
+
+#: ../src/rena-preferences-dialog.c:704
+#: ../plugins/lastfm/rena-lastfm-plugin.c:846
+msgid "_Open"
+msgstr "খোলা (_O)"
+
+#. Audio
+#: ../src/rena-preferences-dialog.c:929
+#: ../src/rena-preferences-dialog.c:1391
+msgid "Audio"
+msgstr "শ্রুতি"
+
+#: ../src/rena-preferences-dialog.c:931
+msgid "Audio sink"
+msgstr "অডিও সিঙ্ক"
+
+#: ../src/rena-preferences-dialog.c:935
+#: ../src/rena-preferences-dialog.c:955
+#: ../src/rena-preferences-dialog.c:961
+msgid "Restart Required"
+msgstr "রিস্টার্ট প্রয়োজন"
+
+#: ../src/rena-preferences-dialog.c:950
+msgid "Audio Device"
+msgstr "অডিও ডিভাইস"
+
+#: ../src/rena-preferences-dialog.c:960
+msgid "Use software mixer"
+msgstr "সফটওয়্যার মিক্সার ব্যবহার করুন"
+
+#: ../src/rena-preferences-dialog.c:994
+#: ../src/rena-preferences-dialog.c:1362
+msgid "Library"
+msgstr "লাইব্রেরি"
+
+#: ../src/rena-preferences-dialog.c:998
+msgid "Can not change directories while they are analyzing."
+msgstr "তারা বিশ্লেষণ করার সময় ডিরেক্টরি পরিবর্তন করতে পারবেন না।"
+
+#: ../src/rena-preferences-dialog.c:1018
+msgid "Folders"
+msgstr "ফোল্ডার"
+
+#: ../src/rena-preferences-dialog.c:1052 ../src/rena.c:209
+msgid "_Add"
+msgstr "যোগ করুন (_A)"
+
+#: ../src/rena-preferences-dialog.c:1053
+msgid "_Remove"
+msgstr "অপসারণ (_R)"
+
+#. Sort by year option.
+#: ../src/rena-preferences-dialog.c:1069
+msgid "Sort albums by release year"
+msgstr "মুক্তির বছর অনুসারে অ্যালবামগুলি সাজান"
+
+#: ../src/rena-preferences-dialog.c:1106
+#: ../src/rena-preferences-dialog.c:1361
+msgid "Playback"
+msgstr "প্লেব্যাক"
+
+#: ../src/rena-preferences-dialog.c:1108 ../src/rena-window.c:136
+msgid "Ignore errors and continue playback"
+msgstr "ত্রুটিগুলি উপেক্ষা করুন এবং প্লেব্যাক চালিয়ে যান"
+
+#. Labels
+#: ../src/rena-preferences-dialog.c:1130
+#: ../src/rena-preferences-dialog.c:1360
+msgid "Appearance"
+msgstr "চেহারা"
+
+#: ../src/rena-preferences-dialog.c:1132
+msgid "Use system title bar and borders"
+msgstr "সিস্টেম শিরোনাম বার এবং সীমানা ব্যবহার করুন"
+
+#: ../src/rena-preferences-dialog.c:1138
+msgid "Use small icons on the toolbars"
+msgstr "টুলবারে ছোট আইকন ব্যবহার করুন"
+
+#: ../src/rena-preferences-dialog.c:1141
+msgid "Controls"
+msgstr "কন্ট্রোল"
+
+#: ../src/rena-preferences-dialog.c:1143
+msgid "Show Album art in Panel"
+msgstr "প্যানেলে অ্যালবাম শিল্প দেখান"
+
+#: ../src/rena-preferences-dialog.c:1146
+msgid "Size of Album art"
+msgstr "অ্যালবাম শিল্পের আকার"
+
+#: ../src/rena-preferences-dialog.c:1151
+msgid "Album art file pattern"
+msgstr "অ্যালবাম আর্ট ফাইল প্যাটার্ন"
+
+#: ../src/rena-preferences-dialog.c:1193 ../src/rena-search-entry.c:116
+msgid "Search"
+msgstr "অনুসন্ধান করুন"
+
+#. Instant search.
+#: ../src/rena-preferences-dialog.c:1195 ../src/rena-search-entry.c:41
+msgid "Search while typing"
+msgstr "টাইপ করার সময় অনুসন্ধান করুন"
+
+#. Aproximate search.
+#: ../src/rena-preferences-dialog.c:1198 ../src/rena-search-entry.c:48
+msgid "Search similar words"
+msgstr "অনুরূপ শব্দ অনুসন্ধান করুন"
+
+#: ../src/rena-preferences-dialog.c:1201
+msgid "When starting rena"
+msgstr "Rena শুরু করার সময়"
+
+#: ../src/rena-preferences-dialog.c:1204
+msgid "Remember last window state"
+msgstr "শেষ উইন্ডো অবস্থা মনে রাখবেন"
+
+#: ../src/rena-preferences-dialog.c:1210
+msgid "Restore last playlist"
+msgstr "শেষ প্লেলিস্ট পুনরুদ্ধার করুন"
+
+#: ../src/rena-preferences-dialog.c:1213
+msgid "When adding folders"
+msgstr "ফোল্ডার যোগ করার সময়"
+
+#: ../src/rena-preferences-dialog.c:1214 ../src/rena.c:200
+msgid "Add files recursively"
+msgstr "পুনরাবৃত্তিমূলকভাবে ফাইল যোগ করুন"
+
+#: ../src/rena-preferences-dialog.c:1238
+#: ../src/rena-preferences-dialog.c:1406
+msgid "Desktop"
+msgstr "ডেস্কটপ"
+
+#: ../src/rena-preferences-dialog.c:1240
+msgid "Show Rena icon in the notification area"
+msgstr "বিজ্ঞপ্তি এলাকায় Rena আইকন দেখান"
+
+#: ../src/rena-preferences-dialog.c:1243
+msgid "Minimize Rena when closing window"
+msgstr "উইন্ডো বন্ধ করার সময় Rena ছোট করুন"
+
+#: ../src/rena-preferences-dialog.c:1264
+#: ../src/rena-preferences-dialog.c:1365
+msgid "Plugins"
+msgstr "প্লাগইন"
+
+#. The main preferences dialog
+#: ../src/rena-preferences-dialog.c:1351
+msgid "Preferences"
+msgstr "পছন্দসমূহ"
+
+#: ../src/rena-preferences-dialog.c:1363
+msgid "General"
+msgstr "সাধারণ"
+
+#: ../src/rena-preferences-dialog.c:1410
+msgid "Services"
+msgstr "সেবা"
+
+#: ../src/rena-preferences-dialog.c:1424
+msgid "Preferences of Rena"
+msgstr "Rena এর পছন্দ"
+
+#: ../src/rena-scanner.c:96 ../plugins/ampache/rena-ampache-plugin.c:677
+#, c-format
+msgid "%i files analyzed of %i detected"
+msgstr "%i ফাইল বিশ্লেষণ করা হয়েছে %i সনাক্ত করা হয়েছে৷"
+
+#. Create background task widget
+#. New Task widget
+#: ../src/rena-scanner.c:102 ../src/rena-scanner.c:341
+#: ../src/rena-scanner.c:730 ../plugins/ampache/rena-ampache-plugin.c:1424
+#: ../plugins/koel/rena-koel-plugin.c:1252
+msgid "Searching files to analyze"
+msgstr "বিশ্লেষণ করার জন্য ফাইল অনুসন্ধান করা হচ্ছে"
+
+#: ../src/rena-scanner.c:257
+msgid "Library scan complete"
+msgstr "লাইব্রেরি স্ক্যান সম্পূর্ণ"
+
+#: ../src/rena-statusicon.c:216 ../src/rena-toolbar.c:171
+#: ../src/rena-toolbar.c:550
+msgid "<b>Not playing</b>"
+msgstr "খেলতেছে না"
+
+#. Set dialog properties
+#: ../src/rena-tags-dialog.c:147 ../src/rena-window.ui.h:45
+msgid "Edit tags"
+msgstr "ট্যাগ সম্পাদনা করুন"
+
+#: ../src/rena-tags-dialog.c:171
+msgid "Track No"
+msgstr "ট্র্যাক নং"
+
+#: ../src/rena-tags-dialog.c:174
+msgid "File"
+msgstr "ফাইল"
+
+#. The main edit dialog
+#: ../src/rena-tags-dialog.c:570 ../src/rena-tags-dialog.c:786
+msgid "Details"
+msgstr "বিস্তারিত"
+
+#: ../src/rena-tags-dialog.c:672
+msgid "channel"
+msgid_plural "channels"
+msgstr[0] "চ্যানেল"
+msgstr[1] "চ্যানেলগুলি"
+
+#: ../src/rena-tags-dialog.c:691
+msgid "Channels"
+msgstr "চ্যানেলগুলি"
+
+#: ../src/rena-tags-dialog.c:692
+msgid "Samplerate"
+msgstr "নমুনা হার"
+
+#: ../src/rena-tags-dialog.c:693
+msgid "Folder"
+msgstr "ফোল্ডার"
+
+#: ../src/rena-tags-dialog.c:1092
+msgid "Selection to"
+msgstr "থেকে নির্বাচন"
+
+#: ../src/rena-tags-dialog.c:1130
+msgid "Open folder"
+msgstr "ফোল্ডার খোলা"
+
+#: ../src/rena-tags-mgmt.c:197
+#, c-format
+msgid ""
+"Do you want to set the track number of ALL of the selected tracks to: %d ?"
+msgstr "আপনি কি নির্বাচিত সমস্ত ট্র্যাকের ট্র্যাক নম্বর সেট করতে চান: %d ?"
+
+#: ../src/rena-tags-mgmt.c:215
+#, c-format
+msgid "Do you want to set the title tag of ALL of the selected tracks to: %s ?"
+msgstr "আপনি কি নির্বাচিত সমস্ত ট্র্যাকের শিরোনাম ট্যাগ সেট করতে চান: %s?"
+
+#: ../src/rena-toolbar.c:147
+#, c-format
+msgid ""
+"%s <small><span weight=\"light\">by</span></small> %s <small><span weight="
+"\"light\">in</span></small> %s"
+msgstr ""
+
+#: ../src/rena-toolbar.c:152
+#: ../plugins/song-info/rena-song-info-thread-dialog.c:53
+#, c-format
+msgid "%s <small><span weight=\"light\">by</span></small> %s"
+msgstr ""
+
+#: ../src/rena-toolbar.c:156
+#, c-format
+msgid "%s <small><span weight=\"light\">in</span></small> %s"
+msgstr ""
+
+#: ../src/rena-toolbar.c:218
+msgid "Remove from Favorites"
+msgstr "পছন্দের তালিকা থেকে অপসারণ"
+
+#: ../src/rena-toolbar.c:218
+msgid "Add to Favorites"
+msgstr "ফেভারিটে যোগ করুন"
+
+#: ../src/rena-toolbar.c:855
+msgid "Previous Track"
+msgstr "পূর্ববর্তী ট্র্যাক"
+
+#: ../src/rena-toolbar.c:859
+msgid "Play / Pause Track"
+msgstr "প্লে/পজ ট্র্যাক"
+
+#: ../src/rena-toolbar.c:863
+msgid "Stop playback"
+msgstr "প্লেব্যাক বন্ধ করুন"
+
+#: ../src/rena-toolbar.c:867
+msgid "Next Track"
+msgstr "পরবর্তী ট্র্যাক"
+
+#: ../src/rena-toolbar.c:878
+msgid "Leave Fullscreen"
+msgstr "ফুলস্ক্রিন ছেড়ে দিন"
+
+#: ../src/rena-toolbar.c:885
+msgid "Play songs in a random order"
+msgstr "এলোমেলো ক্রমে গান চালান"
+
+#: ../src/rena-toolbar.c:888
+msgid "Repeat playback list at the end"
+msgstr "শেষে প্লেব্যাক তালিকা পুনরাবৃত্তি করুন"
+
+#: ../src/rena-utils.c:493
+msgid "day"
+msgid_plural "days"
+msgstr[0] "দিন"
+msgstr[1] "দিন"
+
+#: ../src/rena-utils.c:796
+msgid "Unable to open the browser"
+msgstr "ব্রাউজার খুলতে অক্ষম"
+
+#: ../src/rena-window.c:133
+#, c-format
+msgid ""
+"<b>Error playing current track.</b>\n"
+"(%s)\n"
+"<b>Reason:</b> %s"
+msgstr ""
+"<b>বর্তমান ট্র্যাক বাজানো ত্রুটি৷</b>⏎\n"
+"(%s)⏎\n"
+"<b>কারণ:</b> %s"
+
+#: ../src/rena-window.c:140
+msgid "_Stop"
+msgstr "থামো (_S)"
+
+#: ../src/rena-window.c:141
+msgid "_Next"
+msgstr "পরবর্তী (_N)"
+
+#: ../src/rena.c:175
+msgid "Select a file to play"
+msgstr "খেলার জন্য একটি ফাইল নির্বাচন করুন"
+
+#: ../src/rena.c:222 ../plugins/lastfm/rena-lastfm-plugin.c:850
+msgid "Supported media"
+msgstr "সমর্থিত মিডিয়া"
+
+#: ../src/rena.c:308
+msgid "All files"
+msgstr "সকল নথি"
+
+#: ../src/rena.c:384
+msgid "Enter the URL of an internet radio stream"
+msgstr "একটি ইন্টারনেট রেডিও স্ট্রিমের URL লিখুন৷"
+
+#: ../src/rena.c:391
+msgid "Give it a name to save"
+msgstr "সংরক্ষণ করার জন্য এটি একটি নাম দিন"
+
+#: ../src/rena.c:404
+msgid "Add a location"
+msgstr "অবস্থান যোগ করুন"
+
+#. Setup application name and pulseaudio role
+#. Launch server
+#: ../src/rena.c:767 ../src/rena.c:1012 ../src/main.c:61
+#: ../data/io.github.santelmotechnologies.metainfo.xml.in.h:1
+#: ../plugins/dlna/rena-dlna-plugin.c:246
+msgid "Rena Music Player"
+msgstr "Rena গান শোনার যন্ত্র"
+
+#: ../src/rena-window.ui.h:15
+msgid "Show lateral _panel"
+msgstr "পার্শ্বীয় প্যানেল দেখান (_p)"
+
+#: ../src/rena-window.ui.h:16
+msgid "Show secondary lateral panel"
+msgstr "গৌণ পার্শ্বীয় প্যানেল দেখান"
+
+#: ../src/rena-window.ui.h:17
+msgid "Show menubar"
+msgstr "মেনুবার দেখান"
+
+#: ../src/rena-window.ui.h:18
+msgid "Show status bar"
+msgstr "স্ট্যাটাস বার দেখান"
+
+#: ../src/rena-window.ui.h:28
+msgid "_Expand library"
+msgstr "লাইব্রেরি প্রসারিত করুন (_E)"
+
+#: ../src/rena-window.ui.h:29
+msgid "_Collapse library"
+msgstr "লাইব্রেরি সঙ্কুচিত করুন (_C)"
+
+#: ../src/rena-window.ui.h:38
+#: ../plugins/song-info/rena-song-info-pane.c:471
+msgid "_Add to current playlist"
+msgstr "বর্তমান প্লেলিস্টে যোগ করুন (_A)"
+
+#: ../src/rena-window.ui.h:39
+msgid "_Replace current playlist"
+msgstr "বর্তমান প্লেলিস্ট প্রতিস্থাপন করুন (_R)"
+
+#: ../src/rena-window.ui.h:40
+msgid "Replace and _play"
+msgstr "প্রতিস্থাপন এবং খেলা (_p)"
+
+#: ../src/rena-window.ui.h:41
+msgid "Add and play"
+msgstr "যোগ করুন এবং খেলুন"
+
+#: ../src/rena-window.ui.h:43
+msgid "Delete"
+msgstr "মুছে ফেলা"
+
+#: ../src/rena-window.ui.h:44
+msgid "_Remove library"
+msgstr "লাইব্রেরি সরান (_R)"
+
+#: ../src/rena-window.ui.h:46
+msgid "Move to _trash"
+msgstr "আবর্জনা সরান (_t)"
+
+#: ../src/rena-window.ui.h:47
+msgid "Delete from library"
+msgstr "লাইব্রেরি থেকে মুছে দিন"
+
+#: ../data/io.github.santelmotechnologies.metainfo.xml.in.h:2
+#: ../data/rena.desktop.in.h:2
+msgid "Manage and listen your music"
+msgstr "আপনার সঙ্গীত পরিচালনা এবং শুনতে"
+
+#: ../data/io.github.santelmotechnologies.metainfo.xml.in.h:3
+msgid ""
+"<p> Rena is a Lightweight Music Player for GNU/Linux, based on GTK3, "
+"SQLite, and completely written in C, constructed to be fast, light, and "
+"simultaneously tries to be complete without obstructing the daily work. "
+"Although it was especifically designed for the Xfce desktop, it integrates "
+"very well in other desktop environments. </p> <p>Features:</p> <ul> <li>Full "
+"integration with GTK3 support, but always completely independent of gnome or "
+"xfce</li> <li>Two panel desing inspired on Amarok 1.4. Library and current "
+"playlist</li> <li>Library with multiple views, according tags or folder "
+"structure</li> <li>Search, filtering and queue songs on current playlist</"
+"li> <li>Playing and edit tag of mp3, m4a, ogg, flac, asf, wma, and ape "
+"files. Of course you need codecs</li> <li>Playlist management. Exporting M3U "
+"and read M3U, PLS, XSPF and WAX playlists</li> <li>Play audio CDs and "
+"identifies this with CDDB</li> <li>Playback control with command line and "
+"MPRIS2</li> <li>Native desktop notifications with libnotify</li> </ul>"
+msgstr ""
+
+#: ../data/io.github.santelmotechnologies.metainfo.xml.in.h:4
+msgid "audio"
+msgstr "শ্রুতি"
+
+#: ../data/io.github.santelmotechnologies.metainfo.xml.in.h:5
+msgid "multimedia"
+msgstr "মাল্টিমিডিয়া"
+
+#: ../data/io.github.santelmotechnologies.metainfo.xml.in.h:6
+msgid "player"
+msgstr "খেলোয়াড়"
+
+#: ../data/rena.desktop.in.h:1
+msgid "Music Player"
+msgstr "গান শোনার যন্ত্র"
+
+#: ../data/rena.desktop.in.h:3
+msgid "audio;multimedia;player;"
+msgstr ""
+
+#: ../plugins/acoustid/rena-acoustid-plugin.c:104
+#: ../plugins/acoustid/rena-acoustid-plugin.c:451
+msgid "Search tags on AcoustID"
+msgstr "AcoustID-তে ট্যাগ খুঁজুন"
+
+#: ../plugins/acoustid/rena-acoustid-plugin.c:212
+#: ../plugins/acoustid/rena-acoustid-plugin.c:391
+msgid "There was an error when searching your tags on AcoustID"
+msgstr "AcoustID এ আপনার ট্যাগ অনুসন্ধান করার সময় একটি ত্রুটি ছিল৷"
+
+#: ../plugins/acoustid/rena-acoustid-plugin.c:269
+msgid "AcoustID not found any similar song"
+msgstr "AcoustID কোন অনুরূপ গান খুঁজে পাওয়া যায়নি"
+
+#: ../plugins/acoustid/rena-acoustid-plugin.c:373
+msgid "Searching tags on AcoustID"
+msgstr "AcoustID-তে ট্যাগ অনুসন্ধান করা হচ্ছে"
+
+#: ../plugins/ampache/rena-ampache-plugin.c:166
+#: ../plugins/ampache/rena-ampache-plugin.c:1449
+msgid "Refresh the Ampache library"
+msgstr "Ampache লাইব্রেরি রিফ্রেশ করুন"
+
+#: ../plugins/ampache/rena-ampache-plugin.c:238
+#: ../plugins/ampache/rena-ampache-plugin.c:240
+#: ../plugins/ampache/rena-ampache-plugin.c:1039
+#: ../plugins/ampache/rena-ampache-plugin.c:1041
+#: ../plugins/ampache/rena-ampache-plugin.c:1062
+msgid "Favorites on Ampache"
+msgstr "Ampache উপর প্রিয়"
+
+#: ../plugins/ampache/rena-ampache-plugin.c:708
+msgid "The server has no songs to play"
+msgstr "সার্ভারে চালানোর জন্য কোনো গান নেই৷"
+
+#: ../plugins/ampache/rena-ampache-plugin.c:886
+#: ../plugins/koel/rena-koel-plugin.c:911
+msgid "Server"
+msgstr "সার্ভার"
+
+#: ../plugins/ampache/rena-ampache-plugin.c:898
+#: ../plugins/lastfm/rena-lastfm-plugin.c:1710
+#: ../plugins/koel/rena-koel-plugin.c:922
+msgid "Username"
+msgstr "ব্যবহারকারীর নাম"
+
+#: ../plugins/ampache/rena-ampache-plugin.c:910
+#: ../plugins/lastfm/rena-lastfm-plugin.c:1717
+#: ../plugins/koel/rena-koel-plugin.c:934
+msgid "Password"
+msgstr "পাসওয়ার্ড"
+
+#: ../plugins/ampache/rena-ampache-plugin.c:1147
+msgid "Unable to establish conection with Ampache"
+msgstr "Ampache এর সাথে সংযোগ স্থাপন করতে অক্ষম৷"
+
+#: ../plugins/cdrom/rena-cdrom-plugin.c:412
+#: ../plugins/cdrom/rena-cdrom-plugin.c:701
+msgid "Audio CD"
+msgstr "অডিও CD"
+
+#: ../plugins/cdrom/rena-cdrom-plugin.c:535
+msgid "Audio/Data CD"
+msgstr "অডিও/ডাটা সিডি"
+
+#: ../plugins/cdrom/rena-cdrom-plugin.c:536
+msgid "An audio CD was inserted"
+msgstr "একটি অডিও সিডি ঢোকানো হয়"
+
+#: ../plugins/cdrom/rena-cdrom-plugin.c:537
+#: ../plugins/cdrom/rena-cdrom-plugin.c:606
+#: ../plugins/cdrom/rena-cdrom-plugin.c:802
+#: ../plugins/cdrom/rena-cdrom-plugin.c:807
+msgid "Add Audio _CD (_C)"
+msgstr "অডিও সিডি যুক্ত করুন"
+
+#: ../plugins/cdrom/rena-cdrom-plugin.c:703
+msgid "Audio CD Device"
+msgstr "অডিও CD ডিভাইস"
+
+#: ../plugins/cdrom/rena-cdrom-plugin.c:724
+msgid "Connect to CDDB server"
+msgstr "CDDB সার্ভারের সাথে সংযোগ করুন"
+
+#: ../plugins/dlna-renderer/rena-dlna-renderer-plugin.c:90
+#: ../plugins/dlna-renderer/rena-dlna-renderer-plugin.c:220
+#: ../plugins/dlna-renderer/rena-dlna-renderer-plugin.c:225
+#: ../plugins/dlna-renderer/rena-dlna-renderer-plugin.c:289
+msgid "Search music on DLNA server"
+msgstr "DLNA সার্ভারে সঙ্গীত অনুসন্ধান করুন"
+
+#: ../plugins/dlna-renderer/rena-dlna-renderer-plugin.c:219
+#, c-format
+msgid "Music of the %s server was added."
+msgstr "%s সার্ভারের সঙ্গীত যোগ করা হয়েছে।"
+
+#: ../plugins/dlna-renderer/rena-dlna-renderer-plugin.c:225
+msgid "Could not find any DLNA server."
+msgstr "কোন DLNA সার্ভার খুঁজে পাওয়া যায়নি."
+
+#: ../plugins/lastfm/rena-lastfm-plugin.c:177
+#: ../plugins/lastfm/rena-lastfm-plugin.c:1470
+#: ../plugins/lastfm/rena-lastfm-menu.ui.h:1
+msgid "_Lastfm"
+msgstr "Last.fm"
+
+#: ../plugins/lastfm/rena-lastfm-plugin.c:178
+#: ../plugins/lastfm/rena-lastfm-plugin.c:842
+#: ../plugins/lastfm/rena-lastfm-menu.ui.h:4
+msgid "Import a XSPF playlist"
+msgstr "একটি XSPF প্লেলিস্ট আমদানি করুন"
+
+#: ../plugins/lastfm/rena-lastfm-plugin.c:180
+#: ../plugins/lastfm/rena-lastfm-menu.ui.h:5
+msgid "Add favorites"
+msgstr "প্রিয় যোগ করুন"
+
+#: ../plugins/lastfm/rena-lastfm-plugin.c:182
+#: ../plugins/lastfm/rena-lastfm-plugin.c:209
+#: ../plugins/lastfm/rena-lastfm-menu.ui.h:6
+msgid "Add similar"
+msgstr "অনুরূপ যোগ করুন"
+
+#: ../plugins/lastfm/rena-lastfm-plugin.c:389
+msgid "Unable to establish conection with Last.fm"
+msgstr "Last.fm এর সাথে সংযোগ স্থাপন করতে অক্ষম"
+
+#: ../plugins/lastfm/rena-lastfm-plugin.c:578
+msgid "Last.fm suggested a tag correction"
+msgstr "Last.fm একটি ট্যাগ সংশোধনের পরামর্শ দিয়েছে"
+
+#: ../plugins/lastfm/rena-lastfm-plugin.c:605
+msgid "Love song on Last.fm failed."
+msgstr "Last.fm-এ Love song ব্যর্থ হয়েছে।"
+
+#: ../plugins/lastfm/rena-lastfm-plugin.c:624
+msgid "Unlove song on Last.fm failed."
+msgstr "Last.fm-এ Unlove song ব্যর্থ হয়েছে।"
+
+#: ../plugins/lastfm/rena-lastfm-plugin.c:658
+#, c-format
+msgid "Added %d tracks of %d suggested from Last.fm"
+msgstr "Last.fm থেকে প্রস্তাবিত %d টির মধ্যে %d টি ট্র্যাক যোগ করা হয়েছে"
+
+#: ../plugins/lastfm/rena-lastfm-plugin.c:661
+#, c-format
+msgid "Last.fm doesn't suggest any similar track"
+msgstr "Last.fm কোন অনুরূপ ট্র্যাক সুপারিশ করে না"
+
+#: ../plugins/lastfm/rena-lastfm-plugin.c:665
+#, c-format
+msgid "Added %d songs of the last %d loved on Last.fm."
+msgstr "Last.fm-এ শেষ %d টি পছন্দের %d টি গান যোগ করা হয়েছে।"
+
+#: ../plugins/lastfm/rena-lastfm-plugin.c:668
+#, c-format
+msgid "You don't have favorite tracks on Last.fm"
+msgstr "Last.fm-এ আপনার প্রিয় ট্র্যাক নেই৷"
+
+#: ../plugins/lastfm/rena-lastfm-plugin.c:1099
+#: ../plugins/lastfm/rena-lastfm-plugin.c:1136
+msgid "Last.fm submission failed"
+msgstr "Last.fm জমা ব্যর্থ হয়েছে"
+
+#: ../plugins/lastfm/rena-lastfm-plugin.c:1138
+msgid "Track scrobbled on Last.fm"
+msgstr "Last.fm এ ট্র্যাক স্ক্রাব করা হয়েছে"
+
+#: ../plugins/lastfm/rena-lastfm-plugin.c:1266
+msgid "Update current song on Last.fm failed."
+msgstr "Last.fm-এ বর্তমান গান আপডেট করা ব্যর্থ হয়েছে।"
+
+#: ../plugins/lastfm/rena-lastfm-plugin.c:1707
+msgid "Scrobble on Last.fm"
+msgstr "Last.fm-এ স্ক্রাব"
+
+#: ../plugins/mtp/rena-mtp-thread.c:208
+msgid "Unknown MTP device"
+msgstr "অজানা MTP ডিভাইস"
+
+#: ../plugins/mtp/rena-mtp-thread.c:461
+msgid "Music"
+msgstr "সঙ্গীত"
+
+#: ../plugins/mpris2/rena-mpris2-plugin.c:856
+msgid "Tracks"
+msgstr "ট্র্যাক"
+
+#: ../plugins/notify/rena-notify-plugin.c:165
+#, c-format
+msgid "by <b>%s</b> in <b>%s</b> <b>(%s)</b>"
+msgstr "দ্বারা <b>%s</b> ভিতরে <b>%s</b> <b>(%s)</b>"
+
+#: ../plugins/notify/rena-notify-plugin.c:267
+msgid "Notifications"
+msgstr "বিজ্ঞপ্তি"
+
+#: ../plugins/notify/rena-notify-plugin.c:269
+msgid "Show Album art in notifications"
+msgstr "বিজ্ঞপ্তিতে অ্যালবাম শিল্প দেখান"
+
+#: ../plugins/notify/rena-notify-plugin.c:274
+msgid "Add actions to change track in notifications"
+msgstr "বিজ্ঞপ্তিতে ট্র্যাক পরিবর্তন করতে অ্যাকশন যোগ করুন"
+
+#: ../plugins/koel/rena-koel-plugin.c:150
+#: ../plugins/koel/rena-koel-plugin.c:1277
+msgid "Refresh the Koel library"
+msgstr "Koel লাইব্রেরি রিফ্রেশ করুন"
+
+#: ../plugins/koel/rena-koel-plugin.c:534
+#: ../plugins/koel/rena-koel-plugin.c:778
+#: ../plugins/koel/rena-koel-plugin.c:798
+msgid "Favorites on Koel"
+msgstr "Koel এ প্রিয়"
+
+#: ../plugins/koel/rena-koel-plugin.c:551
+msgid "Koel"
+msgstr "Koel"
+
+#: ../plugins/koel/rena-koel-plugin.c:552
+msgid "Import finished"
+msgstr "আমদানি শেষ"
+
+#: ../plugins/koel/rena-koel-plugin.c:1004
+msgid "Unable to establish conection with Koel"
+msgstr "Koel এর সাথে সংযোগ স্থাপন করতে অক্ষম"
+
+#: ../plugins/removable-media/rena-devices-removable.c:225
+#, c-format
+msgid "Unable to accesss to “%s” device"
+msgstr "“%s” ডিভাইসে অ্যাক্সেস করতে অক্ষম৷"
+
+#: ../plugins/removable-media/rena-devices-removable.c:229
+#: ../plugins/removable-media/rena-devices-removable.c:315
+msgid "Removable Device"
+msgstr "অপসারণযোগ্য ডিভাইস"
+
+#: ../plugins/removable-media/rena-devices-removable.c:311
+#, c-format
+msgid "Do you want to manage the “%s” device with Rena?"
+msgstr "আপনি কি Rena এর সাথে “%s” ডিভাইস পরিচালনা করতে চান?"
+
+#: ../plugins/removable-media/rena-devices-removable.c:316
+msgid "An removable device was detected"
+msgstr "একটি অপসারণযোগ্য ডিভাইস সনাক্ত করা হয়েছে৷"
+
+#: ../plugins/removable-media/rena-devices-removable.c:317
+msgid "Manage device"
+msgstr "ডিভাইস পরিচালনা করুন"
+
+#: ../plugins/song-info/rena-song-info-pane.c:175
+msgid "Thanks to "
+msgstr "ধন্যবাদ"
+
+#: ../plugins/song-info/rena-song-info-pane.c:377
+#: ../plugins/song-info/rena-song-info-thread-dialog.c:59
+#: ../plugins/song-info/rena-song-info-thread-dialog.c:86
+#: ../plugins/song-info/rena-song-info.ui.h:1
+#, c-format
+msgid "Artist info"
+msgstr "শিল্পীর তথ্য"
+
+#: ../plugins/song-info/rena-song-info-pane.c:390
+#: ../plugins/song-info/rena-song-info-pane.c:453
+#: ../plugins/song-info/rena-song-info-pane.c:517
+#: ../plugins/song-info/rena-song-info-thread-dialog.c:82
+#: ../plugins/song-info/rena-song-info.ui.h:2
+msgid "Lyrics"
+msgstr "গানের কথা"
+
+#: ../plugins/song-info/rena-song-info-pane.c:403
+#: ../plugins/song-info/rena-song-info.ui.h:3
+msgid "Similar songs"
+msgstr "অনুরূপ গান"
+
+#: ../plugins/song-info/rena-song-info-plugin.c:90
+msgid "Search _lyric"
+msgstr "লিরিক অনুসন্ধান করুন (_l)"
+
+#: ../plugins/song-info/rena-song-info-plugin.c:92
+msgid "Search _artist info"
+msgstr "শিল্পীর তথ্য অনুসন্ধান করুন (_a)"
+
+#: ../plugins/song-info/rena-song-info-plugin.c:558
+msgid "Song Information"
+msgstr "গানের তথ্য"
+
+#: ../plugins/song-info/rena-song-info-plugin.c:560
+msgid "Download the album art while playing their songs."
+msgstr "তাদের গান বাজানোর সময় অ্যালবাম আর্ট ডাউনলোড করুন।"
+
+#: ../plugins/song-info/rena-song-info-plugin.c:564
+msgid "Proxy"
+msgstr "প্রক্সি"
+
+#: ../plugins/song-info/rena-song-info-thread-dialog.c:52
+#, c-format
+msgid "Lyrics thanks to %s"
+msgstr "গানের কথা %s কে ধন্যবাদ"
+
+#: ../plugins/song-info/rena-song-info-thread-dialog.c:60
+#, c-format
+msgid "%s <small><span weight=\"light\">thanks to</span></small> %s"
+msgstr "%s <small><span weight=\"light\">ধন্যবাদ</span></small> %s"
+
+#: ../plugins/song-info/rena-song-info-thread-dialog.c:82
+#: ../plugins/song-info/rena-song-info-thread-pane.c:178
+msgid "Lyrics not found."
+msgstr "গানের কথা পাওয়া যায়নি।"
+
+#: ../plugins/song-info/rena-song-info-thread-dialog.c:86
+#: ../plugins/song-info/rena-song-info-thread-pane.c:183
+msgid "Artist information not found."
+msgstr "শিল্পীর তথ্য পাওয়া যায়নি."
+
+#: ../plugins/song-info/rena-song-info-thread-pane.c:188
+msgid "No recommended songs."
+msgstr "কোন প্রস্তাবিত গান."
+
+#: ../plugins/song-info/rena-song-info-thread-pane.c:272
+#: ../plugins/song-info/rena-song-info-thread-pane.c:281
+#: ../plugins/song-info/rena-song-info-thread-pane.c:289
+msgid "Searching..."
+msgstr "অনুসন্ধান করা হচ্ছে..."
+
+#: ../plugins/tunein/rena-tunein-plugin.c:98
+#: ../plugins/tunein/rena-tunein-plugin.c:327
+msgid "Search radio on TuneIn"
+msgstr "TuneIn এ রেডিও অনুসন্ধান করুন"
+
+#: ../plugins/tunein/rena-tunein-plugin.c:151
+#: ../plugins/tunein/rena-tunein-plugin.c:175
+msgid "There was an error when searching radio on TuneIn"
+msgstr "TuneIn এ রেডিও অনুসন্ধান করার সময় একটি ত্রুটি ছিল৷"
+
+#: ../plugins/tunein/rena-tunein-plugin.c:165
+msgid "Radio was not found"
+msgstr "রেডিও পাওয়া যায়নি"
+
+#: ../plugins/tunein/rena-tunein-plugin.c:209
+msgid "Searching radio on TuneIn"
+msgstr "TuneIn এ রেডিও অনুসন্ধান করা হচ্ছে"
+
+#: ../plugins/tunein/rena-tunein-plugin.c:265
+#: ../plugins/tunein/rena-tunein-plugin.c:276
+msgid "Search in TuneIn"
+msgstr "TuneIn এ অনুসন্ধান করুন"
+
+#: ../plugins/visualizer/rena-visualizer-plugin.c:78
+msgid "_Visualizer"
+msgstr "ভিজ্যুয়ালাইজার (_V)"
+
+#: ../plugins/visualizer/rena-visualizer-plugin.c:155
+msgid "Show Visualizer"
+msgstr "ভিজ্যুয়ালাইজার দেখান"
+
+#: ../plugins/lastfm/rena-lastfm-menu.ui.h:2
+msgid "Love track"
+msgstr ""
+
+#: ../plugins/lastfm/rena-lastfm-menu.ui.h:3
+msgid "Unlove track"
+msgstr ""
