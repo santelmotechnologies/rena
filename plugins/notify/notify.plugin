@@ -1,0 +1,10 @@
+[Plugin]
+Module=notify
+Name=Notification Plugin
+Description=Show notification when change songs
+Authors=Santelmo Technologies <santelmotechnologies@gmail.com>
+Copyright=Copyright © 2024 Santelmo Technologies
+Website=https://github.com/santelmotechnologies/rena
+Help=https://github.com/santelmotechnologies/rena
+
+
