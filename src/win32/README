@@ -1,0 +1,30 @@
+OVERVIEW:
+
+Here is a brief description of how to compile Rena to Windows using MinGW
+from an Fedora host system. Note that these were my tests. Surely there are
+better ways of doing it. In any case send me a mail.
+
+Install deps:
+	# sudo yum install mingw32-gcc mingw32-gtk3 mingw32-gstreamer1 \
+	mingw32-gstreamer1-plugins-base mingw32-sqlite mingw32-taglib
+
+Prepare the build:
+	# git clone https://github.com/santelmotechnologies/rena.git RenaWin32
+	# cd RenaWin32
+	# ./autogen.sh --host=i586-mingw32msvc --enable-debug
+	# mingw32-configure --host=i586-mingw32msvc --enable-debug
+
+Build and install:
+	# make -j5
+	# sudo make install
+
+How to test:
+	# sudo yum install wine
+	# wine /usr/i686-w64-mingw32/sys-root/mingw/bin/rena.exe
+
+It work properly?
+	Probably not, due to lack the support to directsound, and all proprietary
+	codecs. You need install a complete version of Gstreamer SDK
+
+Please, continue with the next section:
+	https://github.com/santelmotechnologies/rena-win32-installer
